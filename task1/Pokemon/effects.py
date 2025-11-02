@@ -1,5 +1,6 @@
 from typing import TYPE_CHECKING
 from time import sleep
+import skills
 
 SLEEP_TIME = 1
 
@@ -76,3 +77,48 @@ class DamageReductionEffect(Effect):
 
     def effect_clear(self, pokemon):
         pokemon.damage_reduction = 0
+
+
+class BurnEffect(Effect):
+    name = "烧伤"
+
+    def __init__(self, amount: int = 10, duration: int = 2) -> None:
+        super().__init__(duration)
+        self.amount = amount
+
+    def apply(self, pokemon):
+        damage = self.amount
+        pokemon.receive_damage(damage, self.name)
+
+
+class ParalysisEffect(Effect):
+    name = "麻痹"
+
+    def __init__(self, duration: int = 2) -> None:
+        super().__init__(duration)
+
+    def apply(self, pokemon):
+        if self.duration > 1:
+            print(f"{pokemon.name}被麻痹了,无法行动")
+            pokemon.cant_move = True
+
+    def effect_clear(self, pokemon):
+        pokemon.cant_move = False
+
+
+class Flame(Effect):
+    name = "蓄力中"
+
+    def __init__(self, opponent: "Pokemon", duration: int = 2) -> None:
+        super().__init__(duration)
+        self.target = opponent
+
+    def apply(self, pokemon):
+        if self.duration > 1:
+            print(f"{pokemon.name} 蓄力中,无法行动")
+            pokemon.cant_move = True
+
+    def effect_clear(self, pokemon):
+        pokemon.cant_move = False
+        print(f"{pokemon}蓄力完成")
+        pokemon.use_skill(skills.Flame_Charge_fire.execute(pokemon, self.target))

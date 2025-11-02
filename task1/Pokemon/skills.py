@@ -66,7 +66,7 @@ class ParasiticSeeds(Skill):
 class Thunderbolt(Skill):
     name = "十万伏特"
 
-    def __init__(self, amount: float = 1.4, activation_chance: int = 10) -> None:
+    def __init__(self, amount: float = 1.4, activation_chance: int = 100) -> None:
         super().__init__()
         self.amount = amount
         self.activation_chance = activation_chance
@@ -79,7 +79,7 @@ class Thunderbolt(Skill):
         if random.randint(1, 100) <= self.activation_chance:
             print(f"{opponent.name} 被麻痹了")
             sleep(SLEEP_TIME)
-            opponent.is_Paralysis = True
+            opponent.add_status_effect(effects.ParalysisEffect())
         opponent.receive_damage(damage, self.name)
 
 
@@ -129,3 +129,57 @@ class Shield(Skill):
         a.apply(user)
         user.add_status_effect(a)
         a.duration -= 1
+
+
+class Ember(Skill):
+    name = "火花"
+
+    def __init__(self, amount: float = 1, chance: int = 10) -> None:
+        super().__init__()
+        self.amount = amount
+        self.chance = chance
+
+    def execute(self, user, opponent):
+        if opponent.dodged():
+            return False
+        damage = user.attack * self.amount
+        damage *= user.type_effectiveness(opponent)
+        if random.randint(1, 100) <= self.chance:
+            print(f"{user.name} 使 {opponent.name} 陷入烧伤")
+            sleep(SLEEP_TIME)
+            opponent.add_status_effect(effects.BurnEffect())
+        opponent.receive_damage(damage, self.name)
+        return True
+
+
+class Flame_Charge(Skill):
+    name = "蓄能爆炎-蓄力"
+
+    def __init__(self, amount: float = 3, chance: int = 80) -> None:
+        super().__init__()
+        self.amount = amount
+        self.chance = chance
+
+    def execute(self, user, opponent):
+        user.add_status_effect(effects.Flame(opponent))
+        return False
+
+
+class Flame_Charge_fire(Skill):
+    name = "蓄能爆炎-发射"
+
+    def __init__(self, amount: float = 3, chance: int = 80) -> None:
+        super().__init__()
+        self.amount = amount
+        self.chance = chance
+
+    def execute(self, user, opponent):
+        if opponent.dodged():
+            return False
+        damage = user.attack * self.amount
+        damage *= user.type_effectiveness(opponent)
+        if random.randint(1, 100) <= 80:
+            print(f"{user.name} 使 {opponent.name} 陷入烧伤")
+            sleep(SLEEP_TIME)
+            opponent.add_status_effect(effects.BurnEffect())
+        opponent.receive_damage(damage, self.name)

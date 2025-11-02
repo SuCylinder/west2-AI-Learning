@@ -12,10 +12,10 @@ class Pokemon:
     name: str
     type: str
     effect_list = ["中毒", "寄生种子"]
-    is_Paralysis = False
 
     def __init__(self, hp: int, attack: int, defense: int, dodge_chance: int) -> None:
         # 初始化 Pokemon 的属性
+        self.cant_move = False
         self.hp = hp
         self.max_hp = hp
         self.attack = attack
@@ -143,7 +143,10 @@ class GlassPokemon(Pokemon):
 
 class ElectricPokemon(Pokemon):
     type = "电"
-    is_dodged = False
+
+    def __init__(self, hp, attack, defense, dodge_chance):
+        self.is_dodged = False
+        super().__init__(hp, attack, defense, dodge_chance)
 
     def type_effectiveness(self, opponent: Pokemon):
         effectiveness = 1.0
@@ -212,6 +215,42 @@ class WaterPokemon(Pokemon):
             self.alive = False
             print(f"{self.name} 倒下了!")
             sleep(SLEEP_TIME)
+
+
+class FirePokemon(Pokemon):
+    type = "火"
+
+    def __init__(self, hp, attack, defense, dodge_chance):
+        super().__init__(hp, attack, defense, dodge_chance)
+        self.base_attack = self.attack
+        self.attack_increase = 1
+
+    def begin(self):
+        self.apply_status_effect()
+
+    def type_effectiveness(self, opponent: Pokemon):
+        effectiveness = 1.0
+        opponent_type = opponent.type
+
+        if opponent_type == "草":
+            print("效果拔群!")
+            sleep(SLEEP_TIME)
+            effectiveness = 2.0
+        elif opponent_type == "水":
+            print("收效甚微")
+            sleep(SLEEP_TIME)
+            effectiveness = 0.5
+        return effectiveness
+
+    def use_skill(self, skill, opponent):
+        print(f"{self.name} 使用了 {skill.name}!")
+        sleep(SLEEP_TIME)
+        if skill.execute(self, opponent):
+            if self.attack_increase < 1.4:
+                self.attack_increase += 0.1
+                self.attack = self.base_attack * self.attack_increase
+                print(f"{self.name}攻击力增加")
+                sleep(SLEEP_TIME)
 
 
 # Bulbasaur 类，继承自 GlassPokemon

@@ -159,22 +159,14 @@ class Play:
         print("~" * 10, "效果结算", "~" * 10)
         self.current_player_pokemon.begin()
         self.check_game_status()
-        if not self.current_player_pokemon.is_Paralysis:
+        if not self.current_player_pokemon.cant_move:
             self.player_action()
-            self.current_player_pokemon.is_Paralysis = False
-        else:
-            print(f"{self.current_player_pokemon.name}被麻痹了,无法行动")
-            sleep(SLEEP_TIME)
         print("=" * 15, "对手回合", "=" * 15)
         print("~" * 10, "效果结算", "~" * 10)
         self.current_computer_pokemon.begin()
         self.check_game_status()
-        if not self.current_computer_pokemon.is_Paralysis:
+        if not self.current_computer_pokemon.cant_move:
             self.computer_action()
-            self.current_computer_pokemon.is_Paralysis = False
-        else:
-            print(f"{self.current_computer_pokemon.name}被麻痹了,无法行动")
-            sleep(SLEEP_TIME)
 
     def run(self):
         # 游戏主循环
