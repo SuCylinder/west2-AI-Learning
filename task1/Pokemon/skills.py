@@ -66,7 +66,7 @@ class ParasiticSeeds(Skill):
 class Thunderbolt(Skill):
     name = "十万伏特"
 
-    def __init__(self, amount: float = 1.4, activation_chance: int = 100) -> None:
+    def __init__(self, amount: float = 1.4, activation_chance: int = 10) -> None:
         super().__init__()
         self.amount = amount
         self.activation_chance = activation_chance
@@ -183,3 +183,4 @@ class Flame_Charge_fire(Skill):
             sleep(SLEEP_TIME)
             opponent.add_status_effect(effects.BurnEffect())
         opponent.receive_damage(damage, self.name)
+        return True

@@ -120,5 +120,5 @@ class Flame(Effect):
 
     def effect_clear(self, pokemon):
         pokemon.cant_move = False
-        print(f"{pokemon}蓄力完成")
-        pokemon.use_skill(skills.Flame_Charge_fire.execute(pokemon, self.target))
+        print(f"{pokemon.name}蓄力完成")
+        pokemon.use_skill(skills.Flame_Charge_fire(), self.target)

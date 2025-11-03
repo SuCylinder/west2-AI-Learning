@@ -285,3 +285,13 @@ class Squirtle(WaterPokemon):
 
     def initialize_skills(self):
         return [skills.Aqua_Jet(), skills.Shield()]
+
+
+class Charmander(FirePokemon):
+    name = "小火龙"
+
+    def __init__(self, hp=80, attack=35, defense=15, dodge_chance=10) -> None:
+        super().__init__(hp, attack, defense, dodge_chance)
+
+    def initialize_skills(self):
+        return [skills.Ember(), skills.Flame_Charge()]
