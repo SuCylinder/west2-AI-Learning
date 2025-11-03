@@ -73,6 +73,7 @@ class DamageReductionEffect(Effect):
     def apply(self, pokemon):
         if self.duration > 0:
             print(f"{pokemon.name} 现在拥有 {self.amount*100}% 的伤害减免")
+            sleep(SLEEP_TIME)
             pokemon.damage_reduction = self.amount
 
     def effect_clear(self, pokemon):
@@ -99,7 +100,8 @@ class ParalysisEffect(Effect):
 
     def apply(self, pokemon):
         if self.duration > 1:
-            print(f"{pokemon.name}被麻痹了,无法行动")
+            print(f"{pokemon.name} 被麻痹了,无法行动")
+            sleep(SLEEP_TIME)
             pokemon.cant_move = True
 
     def effect_clear(self, pokemon):
@@ -116,9 +118,11 @@ class Flame(Effect):
     def apply(self, pokemon):
         if self.duration > 1:
             print(f"{pokemon.name} 蓄力中,无法行动")
+            sleep(SLEEP_TIME)
             pokemon.cant_move = True
 
     def effect_clear(self, pokemon):
         pokemon.cant_move = False
-        print(f"{pokemon.name}蓄力完成")
+        print(f"{pokemon.name} 蓄力完成")
+        sleep(SLEEP_TIME)
         pokemon.use_skill(skills.Flame_Charge_fire(), self.target)

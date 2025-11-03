@@ -11,7 +11,7 @@ SLEEP_TIME = 1
 class Pokemon:
     name: str
     type: str
-    effect_list = ["中毒", "寄生种子"]
+    effect_list = ["中毒", "寄生种子", "烧伤"]
 
     def __init__(self, hp: int, attack: int, defense: int, dodge_chance: int) -> None:
         # 初始化 Pokemon 的属性
@@ -61,7 +61,7 @@ class Pokemon:
                 print(f"{self.name} 防御了这次攻击!")
                 sleep(SLEEP_TIME)
                 return
-
+        damage = round(damage)
         self.hp -= damage
         print(f"{self.name} 受到了 {type} 的 {damage} 点伤害!", end=" ")
         print(f"当前 HP: {self.hp}/{self.max_hp}")
@@ -81,7 +81,6 @@ class Pokemon:
             status.apply(self)
             status.decrease_duration()
             if status.duration <= 0:
-                sleep(SLEEP_TIME)
                 status.effect_clear(self)
                 self.statuses.remove(status)
 
@@ -207,6 +206,7 @@ class WaterPokemon(Pokemon):
             damage *= 1 - damage_reduction - self.damage_reduction
         else:
             damage *= 1 - self.damage_reduction
+        damage = round(damage)
         self.hp -= damage
         print(f"{self.name} 受到了 {type} 的 {damage} 点伤害!", end=" ")
         print(f"当前 HP: {self.hp}/{self.max_hp}")
