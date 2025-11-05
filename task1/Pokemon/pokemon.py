@@ -61,6 +61,7 @@ class Pokemon:
                 print(f"{self.name} 防御了这次攻击!")
                 sleep(SLEEP_TIME)
                 return
+        damage = damage * (1 - self.damage_reduction)
         damage = round(damage)
         self.hp -= damage
         print(f"{self.name} 受到了 {type} 的 {damage} 点伤害!", end=" ")
@@ -98,10 +99,23 @@ class Pokemon:
 
     def begin(self):
         # 新回合开始时触发的方法
-        pass
+        raise NotImplemented
 
     def __str__(self) -> str:
         return f"{self.name} 属性: {self.type}"
+
+
+class NormalPokemon(Pokemon):
+    type = "普通"
+
+    def __init__(self, hp, attack, defense, dodge_chance):
+        super().__init__(hp, attack, defense, dodge_chance)
+
+    def type_effectiveness(self, opponent):
+        return 1
+
+    def begin(self):
+        self.apply_status_effect()
 
 
 # GlassPokemon 类
@@ -295,3 +309,13 @@ class Charmander(FirePokemon):
 
     def initialize_skills(self):
         return [skills.Ember(), skills.Flame_Charge()]
+
+
+class Ditto(NormalPokemon):
+    name = "百变怪"
+
+    def __init__(self, hp=70, attack=25, defense=15, dodge_chance=10):
+        super().__init__(hp, attack, defense, dodge_chance)
+
+    def initialize_skills(self):
+        return [skills.Crash(), skills.Imitate()]

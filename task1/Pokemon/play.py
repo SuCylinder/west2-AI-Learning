@@ -202,6 +202,11 @@ if __name__ == "__main__":
     pokemon2 = pokemon.PikaChu()
     pokemon3 = pokemon.Squirtle()
     pokemon4 = pokemon.Charmander()
-    all_pokemon = [pokemon1, pokemon2, pokemon3, pokemon4]
-    play = Play(all_pokemon)
-    play.run()
+    pokemon5 = pokemon.Ditto()
+    all_pokemon = [pokemon3, pokemon5]
+    # play = Play(all_pokemon)
+    # play.run()
+    import skills
+
+    pokemon5.use_skill(skills.Shield(), pokemon3)
+    pokemon5.receive_damage(50, "test")
