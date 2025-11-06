@@ -2,8 +2,7 @@ from __future__ import annotations
 import copy
 import random
 import sys
-import effects
-import pokemon
+import pokemons
 
 POKEMON_NUM = 1
 
@@ -198,11 +197,11 @@ class Play:
 
 
 if __name__ == "__main__":
-    pokemon1 = pokemon.Bulbasaur()
-    pokemon2 = pokemon.PikaChu()
-    pokemon3 = pokemon.Squirtle()
-    pokemon4 = pokemon.Charmander()
-    pokemon5 = pokemon.Ditto()
+    pokemon1 = pokemons.Bulbasaur()
+    pokemon2 = pokemons.PikaChu()
+    pokemon3 = pokemons.Squirtle()
+    pokemon4 = pokemons.Charmander()
+    pokemon5 = pokemons.Ditto()
     all_pokemon = [pokemon1, pokemon2, pokemon3, pokemon4, pokemon5]
     play = Play(all_pokemon)
     play.run()
