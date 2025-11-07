@@ -1,11 +1,8 @@
 from __future__ import annotations
-from time import sleep
-from . import skills
 from .skills import Skill
 from .effects import Effect
 import random
-
-SLEEP_TIME = 1
+from misc.tools import printWithDelay
 
 
 class Pokemon:
@@ -35,8 +32,7 @@ class Pokemon:
 
     def use_skill(self, skill: Skill, opponent: Pokemon):
         # 使用技能
-        print(f"{self.name} 使用了 {skill.name}!")
-        sleep(SLEEP_TIME)
+        printWithDelay(f"{self.name} 使用了 {skill.name}!")
         skill.execute(self, opponent)
 
     def heal_self(self, amount):
@@ -47,8 +43,9 @@ class Pokemon:
         self.hp += amount
         if self.hp > self.max_hp:
             self.hp = self.max_hp
-        print(f"{self.name} 恢复了 {amount} HP! 现在的 HP: {self.hp}/{self.max_hp}")
-        sleep(SLEEP_TIME)
+        printWithDelay(
+            f"{self.name} 恢复了 {amount} HP! 现在的 HP: {self.hp}/{self.max_hp}"
+        )
 
     def receive_damage(self, damage, type: str):
         # 计算伤害并减去防御力，更新 HP
@@ -58,19 +55,16 @@ class Pokemon:
         if type not in self.effect_list:
             damage -= self.defense
             if damage <= 0:
-                print(f"{self.name} 防御了这次攻击!")
-                sleep(SLEEP_TIME)
+                printWithDelay(f"{self.name} 防御了这次攻击!")
                 return
         damage = damage * (1 - self.damage_reduction)
         damage = round(damage)
         self.hp -= damage
-        print(f"{self.name} 受到了 {type} 的 {damage} 点伤害!", end=" ")
-        print(f"当前 HP: {self.hp}/{self.max_hp}")
-        sleep(SLEEP_TIME)
+        printWithDelay(f"{self.name} 受到了 {type} 的 {damage} 点伤害!", end=" ")
+        printWithDelay(f"当前 HP: {self.hp}/{self.max_hp}")
         if self.hp <= 0:
             self.alive = False
-            print(f"{self.name} 倒下了!")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{self.name} 倒下了!")
 
     def add_status_effect(self, effect: Effect):
         # 添加状态效果
@@ -91,8 +85,7 @@ class Pokemon:
 
     def dodged(self):
         if random.randint(1, 100) <= self.dodge_chance:
-            print(f"{self.name} 闪避了这次攻击!")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{self.name} 闪避了这次攻击!")
             return True
         else:
             return False

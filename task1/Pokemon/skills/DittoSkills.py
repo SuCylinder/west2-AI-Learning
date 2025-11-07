@@ -1,8 +1,6 @@
 from base.skills import Skill
-from base.pokemon import Pokemon
-from effects import effects
-from time import sleep
 import random
+from misc.tools import printWithDelay
 
 SLEEP_TIME = 1
 
@@ -27,5 +25,5 @@ class Imitate(Skill):
     def execute(self, user, opponent):
         skills = opponent.skills
         skill_to_use = random.choice(skills)
-        print(f"{user.name} 模仿了 {opponent.name} 的 {skill_to_use.name}")
+        printWithDelay(f"{user.name} 模仿了 {opponent.name} 的 {skill_to_use.name}")
         user.use_skill(skill_to_use, opponent)

@@ -1,8 +1,6 @@
 from base.pokemon import Pokemon
 from skills import BulbasaurSkills
-from time import sleep
-
-SLEEP_TIME = 1
+from misc.tools import printWithDelay
 
 
 class GlassPokemon(Pokemon):
@@ -14,12 +12,10 @@ class GlassPokemon(Pokemon):
         opponent_type = opponent.type
 
         if opponent_type == "水":
-            print("效果拔群!")
-            sleep(SLEEP_TIME)
+            printWithDelay("效果拔群!")
             effectiveness = 2.0
         elif opponent_type == "火":
-            print("收效甚微")
-            sleep(SLEEP_TIME)
+            printWithDelay("收效甚微")
             effectiveness = 0.5
         return effectiveness
 
@@ -34,10 +30,9 @@ class GlassPokemon(Pokemon):
         self.hp += amount
         if self.hp > self.max_hp:
             self.hp = self.max_hp
-        print(
+        printWithDelay(
             f"{self.name} 在回合开始时治疗了 {amount} HP! 当前 HP: {self.hp}/{self.max_hp}"
         )
-        sleep(SLEEP_TIME)
 
 
 # Bulbasaur 类，继承自 GlassPokemon

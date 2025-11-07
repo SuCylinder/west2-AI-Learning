@@ -3,12 +3,8 @@ import copy
 import random
 import sys
 import pokemons
-
-POKEMON_NUM = 1
-
-from time import sleep
-
-SLEEP_TIME = 1
+from misc.tools import printWithDelay
+from settings import POKEMON_NUM
 
 
 def valid_choice(choice, range):
@@ -27,7 +23,7 @@ class Play:
 
     def player_choose_pokemon_team(self, pokemon_to_choose: list, num=POKEMON_NUM):
         # 玩家选择队伍中的Pokemon
-        print(f"为你的队伍选择 {num} 个宝可梦:")
+        printWithDelay(f"为你的队伍选择 {num} 个宝可梦:")
         pokemon_to_choose = copy.deepcopy(pokemon_to_choose)
         index = 1
         while len(self.player_team) < num:
@@ -37,50 +33,44 @@ class Play:
                 self.player_team.append(pokemon_to_choose.pop(int(choice) - 1))
                 index += 1
             else:
-                print("非法的选择,请正确选择宝可梦")
-        print("这是你的宝可梦队伍:")
-        sleep(SLEEP_TIME)
+                printWithDelay("非法的选择,请正确选择宝可梦")
+        printWithDelay("这是你的宝可梦队伍:")
         self.print_pokemon_list(self.player_team)
 
     def computer_choose_pokemon_team(self, pokemon_to_choose: list, num=POKEMON_NUM):
         # 电脑选择对战的队伍
-        print(f"你的对手正在选择 {num} 个宝可梦")
-        sleep(SLEEP_TIME)
+        printWithDelay(f"你的对手正在选择 {num} 个宝可梦")
         self.computer_team.extend(random.sample(pokemon_to_choose, num))
-        print("这是你对手的队伍:")
-        sleep(SLEEP_TIME)
+        printWithDelay("这是你对手的队伍:")
         self.print_pokemon_list(self.computer_team)
 
     def print_pokemon_list(self, pokemon_list):
         # 打印Pokemon列表
         for i, p in enumerate(pokemon_list, 1):
             print(f"{i}: {p}")
-        sleep(SLEEP_TIME)
 
     def player_choose_pokemon(self):
         # 玩家选择当前战斗的Pokemon
-        print("你的队伍:")
-        sleep(SLEEP_TIME)
+        printWithDelay("你的队伍:")
         self.print_pokemon_list(self.player_team)
         while True:
             choice = input("输入你要选择的宝可梦:")
             if valid_choice(choice, len(self.player_team)):
                 chosen_pokemon = self.player_team[int(choice) - 1]
                 if chosen_pokemon.alive is True:
-                    print(f"你选择了 {chosen_pokemon.name}")
+                    printWithDelay(f"你选择了 {chosen_pokemon.name}")
                     self.current_player_pokemon = chosen_pokemon
                     return chosen_pokemon  # 返回选择的Pokemon
                 else:
-                    print(f"{chosen_pokemon.name} 倒下了! 请选择其他的宝可梦!")
+                    printWithDelay(f"{chosen_pokemon.name} 倒下了! 请选择其他的宝可梦!")
             else:
-                print("非法的选择,请正确选择宝可梦")
+                printWithDelay("非法的选择,请正确选择宝可梦")
 
     def computer_choose_pokemon(self):
         # 电脑随机选择一个存活的Pokemon
         available_pokemon = [p for p in self.computer_team if p.alive is True]
         chosen_pokemon = random.choice(available_pokemon)
-        print(f"你的对手选择了 {chosen_pokemon}")
-        sleep(SLEEP_TIME)
+        printWithDelay(f"你的对手选择了 {chosen_pokemon}")
         self.current_computer_pokemon = chosen_pokemon
         return chosen_pokemon  # 返回选择的Pokemon
 
@@ -93,15 +83,14 @@ class Play:
         is_player_fail = all(pokemon.alive is False for pokemon in self.player_team)
         is_computer_fail = all(pokemon.alive is False for pokemon in self.computer_team)
         if is_player_fail and is_computer_fail:
-            print("你和你对手的所有宝可梦都倒下了. 平局.")
+            printWithDelay("你和你对手的所有宝可梦都倒下了. 平局.")
             self.game_finished()
         elif not is_player_fail and is_computer_fail:
-            print("你对手的所有宝可梦都倒下了. 你赢了!")
+            printWithDelay("你对手的所有宝可梦都倒下了. 你赢了!")
             self.game_finished()
         elif is_player_fail and not is_computer_fail:
-            print("你所有的宝可梦都倒下了. 你输了!")
+            printWithDelay("你所有的宝可梦都倒下了. 你输了!")
             self.game_finished()
-
         if not self.current_player_pokemon.alive:
             self.player_choose_pokemon()
         if not self.current_computer_pokemon.alive:
@@ -109,8 +98,7 @@ class Play:
 
     def player_use_skills(self):
         # 玩家选择技能
-        print("选择技能")
-        sleep(SLEEP_TIME)
+        printWithDelay("选择技能")
         skills = self.current_player_pokemon.skills
         for i, skill in enumerate(skills, 1):
             print(f"{i}: {skill}")
@@ -123,8 +111,7 @@ class Play:
                 )
                 return
             else:
-                print("非法选择,请选择正确的技能")
-                sleep(SLEEP_TIME)
+                printWithDelay("非法选择,请选择正确的技能")
 
     def computer_use_skills(self):
         # 电脑随机选择技能
@@ -134,8 +121,8 @@ class Play:
         )
 
     def player_action(self):
-        print("~" * 10, "行动", "~" * 10)
-        sleep(SLEEP_TIME)
+        printWithDelay("~" * 10, "行动", "~" * 10)
+
         self.player_use_skills()
         self.check_game_status()
         if (
@@ -143,13 +130,11 @@ class Play:
             and self.current_computer_pokemon.is_dodged
         ):
             self.current_computer_pokemon.is_dodged = False
-            print(f"对手的 {self.current_computer_pokemon.name} 获得额外回合")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"对手的 {self.current_computer_pokemon.name} 获得额外回合")
             self.computer_action()
 
     def computer_action(self):
-        print("~" * 10, "行动", "~" * 10)
-        sleep(SLEEP_TIME)
+        printWithDelay("~" * 10, "行动", "~" * 10)
         self.computer_use_skills()
         self.check_game_status()
         if (
@@ -157,27 +142,22 @@ class Play:
             and self.current_player_pokemon.is_dodged
         ):
             self.current_player_pokemon.is_dodged = False
-            print(f"你的 {self.current_player_pokemon.name} 获得额外回合")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"你的 {self.current_player_pokemon.name} 获得额外回合")
             self.player_action()
 
     def battle_round(self):
         # 回合进行
-        print(
+        printWithDelay(
             f"\n{self.current_player_pokemon.name} vs {self.current_computer_pokemon.name}"
         )
-        print("=" * 15, "你的回合", "=" * 15)
-        sleep(SLEEP_TIME)
-        print("~" * 10, "效果结算", "~" * 10)
-        sleep(SLEEP_TIME)
+        printWithDelay("=" * 15, "你的回合", "=" * 15)
+        printWithDelay("~" * 10, "效果结算", "~" * 10)
         self.current_player_pokemon.begin()
         self.check_game_status()
         if not self.current_player_pokemon.cant_move:
             self.player_action()
-        print("=" * 15, "对手回合", "=" * 15)
-        sleep(SLEEP_TIME)
-        print("~" * 10, "效果结算", "~" * 10)
-        sleep(SLEEP_TIME)
+        printWithDelay("=" * 15, "对手回合", "=" * 15)
+        printWithDelay("~" * 10, "效果结算", "~" * 10)
         self.current_computer_pokemon.begin()
         self.check_game_status()
         if not self.current_computer_pokemon.cant_move:
@@ -187,8 +167,7 @@ class Play:
         # 游戏主循环
         self.player_choose_pokemon_team(self.all_pokemon)
         self.computer_choose_pokemon_team(self.all_pokemon)
-
-        print("选择你第一个作战的宝可梦")
+        printWithDelay("选择你第一个作战的宝可梦")
         self.current_player_pokemon = self.player_choose_pokemon()
         self.current_computer_pokemon = self.computer_choose_pokemon()
 

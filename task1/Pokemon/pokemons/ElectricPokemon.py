@@ -1,8 +1,6 @@
 from base.pokemon import Pokemon
 from skills import PikaChuSkills
-from time import sleep
-
-SLEEP_TIME = 1
+from misc.tools import printWithDelay
 
 
 class ElectricPokemon(Pokemon):
@@ -17,12 +15,10 @@ class ElectricPokemon(Pokemon):
         opponent_type = opponent.type
 
         if opponent_type == "水":
-            print("效果拔群!")
-            sleep(SLEEP_TIME)
+            printWithDelay("效果拔群!")
             effectiveness = 2.0
         elif opponent_type == "草":
-            print("收效甚微")
-            sleep(SLEEP_TIME)
+            printWithDelay("收效甚微")
             effectiveness = 0.5
         return effectiveness
 

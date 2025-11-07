@@ -1,6 +1,5 @@
 from base.skills import Skill
 from effects import SpecialEffect
-from time import sleep
 
 
 SLEEP_TIME = 1

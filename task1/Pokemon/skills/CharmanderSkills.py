@@ -1,9 +1,7 @@
 from base.skills import Skill
 from effects import SpecialEffect, effects
-from time import sleep
+from misc.tools import printWithDelay
 import random
-
-SLEEP_TIME = 1
 
 
 class Ember(Skill):
@@ -20,8 +18,7 @@ class Ember(Skill):
         damage = user.attack * self.amount
         damage *= user.type_effectiveness(opponent)
         if random.randint(1, 100) <= self.chance:
-            print(f"{user.name} 使 {opponent.name} 陷入烧伤")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{user.name} 使 {opponent.name} 陷入烧伤")
             opponent.add_status_effect(effects.BurnEffect())
         opponent.receive_damage(damage, self.name)
         return True
@@ -54,8 +51,7 @@ class Flame_Charge_fire(Skill):
         damage = user.attack * self.amount
         damage *= user.type_effectiveness(opponent)
         if random.randint(1, 100) <= 80:
-            print(f"{user.name} 使 {opponent.name} 陷入烧伤")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{user.name} 使 {opponent.name} 陷入烧伤")
             opponent.add_status_effect(effects.BurnEffect())
         opponent.receive_damage(damage, self.name)
         return True

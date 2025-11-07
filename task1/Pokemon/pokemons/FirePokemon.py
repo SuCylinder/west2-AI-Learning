@@ -1,8 +1,6 @@
 from base.pokemon import Pokemon
 from skills import CharmanderSkills
-from time import sleep
-
-SLEEP_TIME = 1
+from misc.tools import printWithDelay
 
 
 class FirePokemon(Pokemon):
@@ -21,24 +19,20 @@ class FirePokemon(Pokemon):
         opponent_type = opponent.type
 
         if opponent_type == "草":
-            print("效果拔群!")
-            sleep(SLEEP_TIME)
+            printWithDelay("效果拔群!")
             effectiveness = 2.0
         elif opponent_type == "水":
-            print("收效甚微")
-            sleep(SLEEP_TIME)
+            printWithDelay("收效甚微")
             effectiveness = 0.5
         return effectiveness
 
     def use_skill(self, skill, opponent):
-        print(f"{self.name} 使用了 {skill.name}!")
-        sleep(SLEEP_TIME)
+        printWithDelay(f"{self.name} 使用了 {skill.name}!")
         if skill.execute(self, opponent):
             if self.attack_increase < 1.4:
                 self.attack_increase += 0.1
                 self.attack = self.base_attack * self.attack_increase
-                print(f"{self.name}攻击力增加")
-                sleep(SLEEP_TIME)
+                printWithDelay(f"{self.name}攻击力增加")
 
 
 class Charmander(FirePokemon):

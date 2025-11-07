@@ -1,10 +1,7 @@
 from base.pokemon import Pokemon
 from skills import SquirtleSkills
-from time import sleep
+from misc.tools import printWithDelay
 import random
-
-
-SLEEP_TIME = 1
 
 
 class WaterPokemon(Pokemon):
@@ -15,12 +12,10 @@ class WaterPokemon(Pokemon):
         opponent_type = opponent.type
 
         if opponent_type == "火":
-            print("效果拔群!")
-            sleep(SLEEP_TIME)
+            printWithDelay("效果拔群!")
             effectiveness = 2.0
         elif opponent_type == "电":
-            print("收效甚微")
-            sleep(SLEEP_TIME)
+            printWithDelay("收效甚微")
             effectiveness = 0.5
         return effectiveness
 
@@ -35,24 +30,20 @@ class WaterPokemon(Pokemon):
         if type not in self.effect_list:
             damage -= self.defense
             if damage <= 0:
-                print(f"{self.name} 防御了这次攻击!")
-                sleep(SLEEP_TIME)
+                printWithDelay(f"{self.name} 防御了这次攻击!")
                 return
         if random.randint(1, 100) <= chance:
-            print(f"{self.name}触发伤害减免!")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{self.name}触发伤害减免!")
             damage *= 1 - damage_reduction - self.damage_reduction
         else:
             damage *= 1 - self.damage_reduction
         damage = round(damage)
         self.hp -= damage
-        print(f"{self.name} 受到了 {type} 的 {damage} 点伤害!", end=" ")
-        print(f"当前 HP: {self.hp}/{self.max_hp}")
-        sleep(SLEEP_TIME)
+        printWithDelay(f"{self.name} 受到了 {type} 的 {damage} 点伤害!", end=" ")
+        printWithDelay(f"当前 HP: {self.hp}/{self.max_hp}")
         if self.hp <= 0:
             self.alive = False
-            print(f"{self.name} 倒下了!")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{self.name} 倒下了!")
 
 
 class Squirtle(WaterPokemon):

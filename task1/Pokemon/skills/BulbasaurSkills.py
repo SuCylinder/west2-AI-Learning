@@ -1,10 +1,8 @@
 from base.skills import Skill
 from base.pokemon import Pokemon
-from effects import effects
-from time import sleep
+from effects import SpecialEffect, effects
+from misc.tools import printWithDelay
 import random
-
-SLEEP_TIME = 1
 
 
 class SeedBomb(Skill):
@@ -23,11 +21,10 @@ class SeedBomb(Skill):
 
         if random.randint(1, 100) <= self.activation_chance:
             opponent.add_status_effect(effects.PoisonEffect())
-            print(f"{opponent.name} 被 {self.name} 下毒了!")
-        sleep(SLEEP_TIME)
+            printWithDelay(f"{opponent.name} 被 {self.name} 下毒了!")
         opponent.receive_damage(damage, self.name)
         # 判断是否触发状态效果
-        print()
+        printWithDelay()
 
 
 class ParasiticSeeds(Skill):
@@ -41,6 +38,5 @@ class ParasiticSeeds(Skill):
         if opponent.dodged():
             return
         # 给使用者添加治疗效果
-        user.add_status_effect(effects.VampiricEffect(opponent, self.amount))
-        print(f"{opponent.name} 被 {user.name} 寄生了!")
-        sleep(SLEEP_TIME)
+        user.add_status_effect(SpecialEffect.VampiricEffect(opponent, self.amount))
+        printWithDelay(f"{opponent.name} 被 {user.name} 寄生了!")

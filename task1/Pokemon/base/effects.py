@@ -1,8 +1,6 @@
 from typing import TYPE_CHECKING
-from time import sleep
-from . import skills
+from misc.tools import printWithDelay
 
-SLEEP_TIME = 1
 
 if TYPE_CHECKING:
     from pokemon import Pokemon
@@ -23,10 +21,9 @@ class Effect:
         # 减少效果持续时间
         self.duration -= 1
         if self.duration > 0:
-            print(f"{self.name} 持续时间减少. 剩余: {self.duration} 回合")
+            printWithDelay(f"{self.name} 持续时间减少. 剩余: {self.duration} 回合")
         else:
-            print(f"{self.name} 效果消失.")
-        sleep(SLEEP_TIME)
+            printWithDelay(f"{self.name} 效果消失.")
 
     def effect_clear(self, pokemon: "Pokemon"):
         return

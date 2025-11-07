@@ -2,9 +2,6 @@ from base.pokemon import Pokemon
 from skills import DittoSkills
 
 
-SLEEP_TIME = 1
-
-
 class NormalPokemon(Pokemon):
     type = "普通"
 

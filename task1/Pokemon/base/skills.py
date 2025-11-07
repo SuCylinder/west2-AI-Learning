@@ -1,8 +1,4 @@
-import random
 from typing import TYPE_CHECKING
-from time import sleep
-
-SLEEP_TIME = 1
 
 if TYPE_CHECKING:
     from pokemon import Pokemon

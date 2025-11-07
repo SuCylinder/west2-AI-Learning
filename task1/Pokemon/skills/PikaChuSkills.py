@@ -1,10 +1,8 @@
 from base.skills import Skill
 from base.pokemon import Pokemon
 from effects import effects
-from time import sleep
+from misc.tools import printWithDelay
 import random
-
-SLEEP_TIME = 1
 
 
 class Thunderbolt(Skill):
@@ -21,8 +19,7 @@ class Thunderbolt(Skill):
         damage = self.amount * user.attack
         damage *= user.type_effectiveness(opponent)
         if random.randint(1, 100) <= self.activation_chance:
-            print(f"{opponent.name} 被麻痹了")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{opponent.name} 被麻痹了")
             opponent.add_status_effect(effects.ParalysisEffect())
         opponent.receive_damage(damage, self.name)
 
@@ -41,6 +38,5 @@ class Quick_Attack(Skill):
         if not opponent.dodged():
             opponent.receive_damage(damage, self.name)
         if random.randint(1, 100) <= self.activation_chance:
-            print(f"{user.name}的 {self.name} 触发二次攻击!")
-            sleep(SLEEP_TIME)
+            printWithDelay(f"{user.name}的 {self.name} 触发二次攻击!")
             opponent.receive_damage(damage, self.name)
