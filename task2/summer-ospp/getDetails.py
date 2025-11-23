@@ -6,6 +6,23 @@ from time import sleep
 
 '''用于获取项目细节'''
 
+#获取项目列表
+def getProject():
+    REQUEST_BODY = {
+        "difficulty": [],
+        "lang": "zh",
+        "orgName": [],
+        "pageNum": "1",
+        "pageSize": "999",
+        "programName": "",
+        "programmingLanguageTag": [],
+        "supportLanguage": [],
+        "techTag": []
+    }
+    api_url = "https://summer-ospp.ac.cn/api/getProList"
+    response = requests.post(api_url,json=REQUEST_BODY)
+    return response.json()["rows"]
+
 # 获取项目简介
 def getIntroduce(response):
     html =  etree.HTML(response.json()["programDesc"])
@@ -39,11 +56,9 @@ def getProjectDetail(programCode):
 
 if __name__ == "__main__":
     # 读取项目列表
-    source_csv_path = Path(__file__).parent /"project.csv"
-    df = pd.read_csv(source_csv_path,encoding="utf-8")
-    datas = df.to_dict(orient="records")
-
-
+    
+    datas = getProject()
+    print(datas)
     ans = []
     cnt = 1
 
