@@ -3,10 +3,20 @@ import pandas
 from pathlib import Path
 import json
 
-path = Path(__file__).parent / "data_row.json"
+api = "https://historical-forecast-api.open-meteo.com/v1/forecast"
 
-with open(path, "r") as f:
-    data = json.load(f)
+params = {
+	"latitude": 26.05942,
+	"longitude": 119.198,
+	"start_date": "2024-01-01",
+	"end_date": "2024-12-31",
+	"daily": ["temperature_2m_max", "temperature_2m_mean", "temperature_2m_min", "precipitation_sum", "sunshine_duration"],
+	"hourly": ["temperature_2m", "relative_humidity_2m", "apparent_temperature", "precipitation", "cloud_cover", "weather_code", "wind_speed_10m", "wind_direction_10m", "shortwave_radiation_instant", "is_day"],
+}
+
+response = requests.get(api,params=params)
+
+data = response.json()
 
 hourlyCsvPath = Path(__file__).parent / "hourly.csv"
 hourlyLength = len(data["hourly"]["time"])
