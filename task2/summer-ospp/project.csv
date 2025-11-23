@@ -1,0 +1,566 @@
+programCode,orgId,supportLanguage,difficulty,matchedStudentName,programNameEN,programName,orgName,orgNameEN,techTag,proId
+255660173,566bb700-9390-4044-b8ff-9f6a770587ee,1,进阶,巴晨翰,,基于RISC-V的Linux操作系统原生无人机飞控开发,RROS双内核操作系统,RROS,"[[""os"",""Linux""],[""codelang"",""Programming Language""]]",173
+25b970239,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,白牧青,Adaptation and Development of an Operating System Security Use Case Database and Evaluation Use Case Generation Tool Based on ct-oval for the OpenEuler Distribution,基于ct-oval的操作系统安全用例数据库及评估用例生成工具在openeuler发行版上的适配开发,openEuler 社区,openEuler,"[[""os"",""x86""]]",241
+25f3e0428,f3ea6d02-4c9c-4638-8ec6-dfba26040cf6,0,进阶/Advanced,鲍溶,Code Improvement for SpiderMonkey's RISC-V (64-bit) Backend,SpiderMonkey 的 64 位 RISC-V 后端修缮工作,安同开源社区（AOSC）,Anthon Open Source Community,"[[""web"",""Web Application""],[""web"",""Desktop Application""],[""dev"",""CI""],[""dev"",""CD""],[""dev"",""SVN""],[""dev"",""Git""],[""os"",""Clang""],[""os"",""Compiler""],[""os"",""GCC""],[""os"",""Linux""],[""os"",""LLVM""]]",431
+251190055,119ef0d9-7aac-431d-bb9f-d39864c168ff,0,基础/Basic,蔡锋泽,NebulaGraph PyG Integration,NebulaGraph 集成 PyG ,NebulaGraph,NebulaGraph,"[[""datas"",""PyTorch""],[""cloudnative"",""Distributed Storage""],[""datas"",""Database""],[""datas"",""Graph Database""]]",55
+256ea0146,6ea2bb27-10bb-4ad9-8b6d-6d61e711ba2d,0,进阶/Advanced,蔡宏天,Lifecycle management system for AI models and datasets,AI 模型和数据集的生命周期管理系统,Alluxio,Alluxio,"[[""datas"",""AI""],[""cloudnative"",""Cloud Native""],[""cloudnative"",""Distributed Storage""]]",146
+251ed0128,1ed29059-95db-46a1-8fc9-a73059403a7b,1,基础,蔡加明,,在Occlum 库操作系统中实现Linux AIO系统调用,Occlum,Occlum,"[[""os"",""Linux""]]",128
+25b970275,b9770f4d-f586-4373-bdac-ce6389065946,0,基础/Basic,曹俊杰,Research on Jailhouse Support for RISC-V,jailhouse到RISC-V移植支持,openEuler 社区,openEuler,"[[""datas"",""Embedded Database""],[""os"",""Virtualization""]]",277
+2536e0180,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,曹里林,,TinyEditor 支持协同编辑,OpenTiny,,"[[""web"",""Vue.js""]]",180
+2574e0390,74eef17f-7b15-44f6-af19-b648a7c7d056,1,进阶,曹文韬,,EmbodiedAI-Ops,Open X-humanoid,,"[[""datas"",""PyTorch""],[""datas"",""AI""]]",392
+25ed70261,ed765847-55a2-4051-9793-8748b9aae5a6,0,基础/Basic,曹雨森,Verifying and Complementing Kmesh Feature,Kmesh特性验证与补充和文档编写,Kmesh,Kmesh,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""]]",263
+25c6d0371,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,岑鉴焕,,基于MindSpore实现化学材料AI 大模型MoMa的开发及性能优化,昇思MindSpore,,"[[""datas"",""AI""]]",373
+2522d0324,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,曾繁曦,,openGauss 向量数据库 AI 数据 ETL 框架最佳实践输出,openGauss 社区,,"[[""datas"",""AI""],[""datas"",""Database""]]",326
+25b970140,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,常旭海,,为 NestOS 适配 RISC-V 架构,openEuler 社区,openEuler,"[[""os"",""RISC-V""],[""dev"",""GitLab CI/CD""]]",140
+25ed10469,ed183144-0b8f-4ab4-a5e1-2ade205141c8,1,基础,车沭遥,,为洛书语言编写交互式学习手册,洛书编程语言社区,,"[[""codelang"",""Programming Language""]]",473
+25f3e0433,f3ea6d02-4c9c-4638-8ec6-dfba26040cf6,0,进阶/Advanced,陈畅,AOSC OS: Python 2 Retirement Project,安同 OS Python 2 清除计划,安同开源社区（AOSC）,Anthon Open Source Community,"[[""web"",""Desktop Application""],[""dev"",""CI""],[""dev"",""CD""],[""os"",""Clang""],[""os"",""Debian""],[""os"",""Compiler""],[""os"",""GCC""],[""os"",""Linux""],[""os"",""LLVM""],[""os"",""RISC-V""],[""codelang"",""Programming Language""]]",436
+25b970286,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,陈冬燕,,llvm与gcc兼容性增强——模板调构造函数使用auto,openEuler 社区,openEuler,"[[""os"",""GCC""],[""os"",""LLVM""]]",288
+25baa0053,baafc3d0-e488-4ba3-9074-e3e1451005a0,0,基础/Basic,陈飞宇,Universal game server level program control panel based on Node.js and Docker,基于 Node.js 和 Docker 实现的通用游戏服务端程序控制面板,MCSManager,,"[[""dev"",""DevOps""],[""web"",""Vue.js""],[""safe"",""Socket""],[""safe"",""WebSocket""],[""web"",""Webpack""],[""web"",""Web Application""]]",53
+2590e0232,90eea893-33f7-404f-ad72-d2e1c14009bf,1,进阶,陈海彬,,openInula 2.0 Antd 核心组件库,openInula,,"[[""web"",""React""],[""web"",""UI""],[""web"",""Webpack""],[""web"",""Web Application""]]",234
+25e0c0005,e0cc038e-3479-4e16-8a86-f8e59ac1a751,1,基础,陈寒江,,OpenFDE的任务管理器,OpenFDE,OpenFDE,"[[""web"",""AndroidX""]]",5
+25b970152,b9770f4d-f586-4373-bdac-ce6389065946,0,基础/Basic,陈航,Implementing Empty Data Handling with nump in a Django Backend and Vue Frontend Project,基于django后端vue前端使用nump处理空数据,openEuler 社区,openEuler,"[[""web"",""Django""],[""os"",""Linux""]]",152
+258430337,843034ca-94ee-4bac-af49-a58bc6061f4f,1,基础,陈欢,,实现在openGemini Go/JAVA客户端中无缝集成OpenTelemetry,openGemini,openGemini,"[[""dev"",""DevOps""],[""datas"",""Database""]]",339
+2528d0376,28d22da9-42b4-4ca7-85ce-91ebca68c7f5,1,进阶,陈金阳,,基于LiteFlow框架开发大模型插件以实现类Dify的后端智能体应用表达式编排能力,LiteFlow,,"[[""datas"",""AI""],[""web"",""Spring Boot""]]",378
+258860456,8867f7ac-c3a6-4d7d-8937-e6209ba1b047,0,进阶/Advanced,陈俊甫,Implement Session lock protocol for treeland,为 treeland 实现锁屏管理协议,深度开源社区,deepin,"[[""web"",""Qt""],[""os"",""Wayland""]]",459
+25a7f0507,a7f6e2ad-4acc-47f8-9471-4e54b9a166a6,1,进阶,陈立文,,为 Dubbo Admin 实现多种部署模式和 AI 智能管控运维能力,Apache Dubbo,,"[[""cloudnative"",""Cloud Native""],[""dev"",""LLMOps""],[""datas"",""AI""]]",511
+25ff10095,ff144b94-b2ac-42fb-8c05-c6922058cb42,1,进阶,陈林峰,,DragonOS云厂商移植支持,DragonOS开源社区,,"[[""cloudnative"",""Cloud Native""],[""os"",""Linux""],[""os"",""x86""]]",95
+257cc0031,7ccd3063-5ec4-477f-975f-3ac2df9fc807,0,进阶/Advanced,陈启昊,Adding trace profiling to skywalking-go,在skywalking-go中增加trace profiling功能,Apache SkyWalking,,"[[""dev"",""DevOps""],[""dev"",""DevSecOps""]]",31
+253ba0247,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,基础/Basic,陈时,Enhance Volcano Agent to Support Cgroup V2 and Systemd,增强Volcano Agent以支持Cgroup V2与Systemd,Volcano社区,Volcano Community,"[[""cloudnative"",""Docker""],[""cloudnative"",""Kubernetes""],[""os"",""Cgroups""],[""os"",""Linux""]]",249
+25c6d0302,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,陈思源,,基于MindSpore Quantum实现自适应偏置场热启动QAOA算法 ,昇思MindSpore,,"[[""datas"",""AI""]]",304
+256820148,68249511-e0f8-4472-accb-110d24ceec1b,1,基础,陈文骏,,为 Arthas 实现 JFR 解析和前端UI库,Arthas,,"[[""dev"",""AIOps""],[""web"",""React""],[""web"",""RESTful API""]]",148
+252290035,22999f09-2be2-4dd8-b10f-bc4d6610cc25,0,基础/Basic,陈文涛,optimize the connection between Kubernetes tasks and clusters,k8s任务与k8s集群链接优化,Apache DolphinScheduler,Apache DolphinScheduler,"[[""cloudnative"",""Kubernetes""]]",35
+255930135,5932fbcc-1556-40c7-b34a-e015fa33914a,1,基础,陈喜盈,,Apache ShardingSphere: 增强 SQL Server SQL 解析引擎，适配更多 DDL、DML 语句,Apache ShardingSphere,,"[[""datas"",""MySQL""]]",135
+256590454,659abd4f-ab65-4e41-9ba1-6824cefc1e0c,1,进阶,陈炫霖,,ArceBoot引导程序设计,RustSBI开源引导程序,,"[[""os"",""RISC-V""]]",457
+25bef0067,bef415f7-741e-4db8-a4ff-b3904c502471,0,进阶/Advanced,陈阳,The Log Monitoring Capabilities of Apache HertzBeat,Apache HertzBeat 日志监控能力,Apache HertzBeat,Apache HertzBeat,"[[""web"",""Angular""],[""web"",""Spring Boot""]]",67
+25a900085,a90bd019-ed8d-400b-952d-47f60b326da9,1,进阶,陈业诚,,实现 dynamic-tp 的自建管理端功能,DynamicTp,DynamicTp,"[[""web"",""Spring Cloud""],[""web"",""Spring Boot""]]",85
+259b20001,9b2ca59c-8114-49c0-b664-197880284d4e,0,基础/Basic,陈毅俊,Implementing sample code and tutorials,dora-rs 样例开发和改进文档,Dora-rs开源项目,Dora-rs Open Source Project,"[[""codelang"",""Programming Language""],[""os"",""Linux""],[""os"",""Ubuntu""],[""os"",""ARM""],[""os"",""Clang""]]",1
+255660091,566bb700-9390-4044-b8ff-9f6a770587ee,0,进阶/Advanced,陈银骁,Separation and Optimization of Real-time and Non-real-time Code in RROS Based on Rust,基于 Rust 的 RROS 实时与非实时代码分离与优化,RROS双内核操作系统,RROS,"[[""os"",""RTOS""]]",91
+256800309,6808e41a-f9d5-446d-a227-53a13f568125,1,进阶,陈振洋,,Sermant动态配置能力增强——支持Apollo配置中心,Sermant,,"[[""cloudnative"",""Cloud Native""]]",311
+256330460,63337bb3-3688-4c7c-8b34-2b2922665daf,0,进阶/Advanced,程晨,BMF DiffusionFlow,BMF DiffusionFlow,BMF字节跳动多媒体框架,BMF,"[[""datas"",""AI""],[""datas"",""LLM""]]",463
+2598a0349,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,程国亮,Embodied Intelligence Benchmark Toolkits for Industrial Manufacturing,面向工业制造的具身智能基准测试套件,KubeEdge,KubeEdge,"[[""cloudnative"",""Kubernetes""],[""datas"",""AI""]]",351
+2536e0185,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,基础,程锴,,TinyVue组件增加全局配置动效方案,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",187
+255660159,566bb700-9390-4044-b8ff-9f6a770587ee,0,进阶/Advanced,程茂霖,Add Support for MuJoCo/NVIDIA Isaac Simulation Platforms to RustPilot ,为RustPilot添加MuJoCo/Nvidia Isaac仿真平台的支持,RROS双内核操作系统,RROS,"[[""codelang"",""Programming Language""],[""os"",""ARM""],[""os"",""Linux""]]",159
+251ed0122,1ed29059-95db-46a1-8fc9-a73059403a7b,1,基础,程琦,,基于 Occlum 实现 System V 信号量系统调用,Occlum,Occlum,"[[""os"",""Linux""]]",122
+25ed10220,ed183144-0b8f-4ab4-a5e1-2ade205141c8,1,基础,成天宇,,使用仓颉语言编写的洛书运行环境,洛书编程语言社区,,"[[""codelang"",""Programming Language""]]",222
+259660401,966d75b6-6602-41a3-a30c-f1cb0e4fb754,1,进阶,程萬哲,,Cloudpods 大模型一键部署,Cloudpods,,"[[""datas"",""LLM""],[""cloudnative"",""Docker""],[""cloudnative"",""Kubernetes""]]",403
+258430418,843a34c5-fc36-4733-b968-b2186b9f467b,1,基础,崇鹏豪,,为IvorySQL开发基于uuid-ossp的sys_guid函数,IvorySQL开源数据库社区,,"[[""datas"",""PostgreSQL""]]",420
+2556e0542,56e91299-431b-4fd6-aa26-4f3618d33343,1,基础,褚仕成,,uORB 订阅发布机制组件,RT-Thread,,"[[""os"",""RTOS""]]",548
+25c6d0452,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,戴鹏,,基于OrangePi AIpro和鸿蒙系统的智能网联小车开发,昇思MindSpore,,"[[""datas"",""AI""]]",455
+257dc0029,7dca27bb-a6d8-4fbc-b0c3-cb461fd775c6,0,进阶/Advanced,代睿祺,Construction of API Graph for Open Source Software and Evaluation of Open Source Software Ecosystem Based on the Graph,开源软件 API 图谱构建与基于图谱的开源软件生态评估,开源指南针,OSS Compass,"[[""datas"",""LLM""]]",29
+251910022,1919a78b-344c-46d6-9276-b47d3a0a4a42,1,进阶,代永宣,,实现 nydusify copy 的不落盘能力,Nydus 镜像加速,,"[[""datas"",""AI""],[""cloudnative"",""Kubernetes""],[""os"",""FUSE""]]",22
+251b90076,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,基础/Basic,单禹嘉,Mermaid visualization capability extension,mermaid 可视化能力扩展,VisActor,VisActor,"[[""web"",""UIKit""]]",76
+25ac20097,ac20493e-e9db-4482-8777-965363f7fee5,2,Basic,邓光阳,,Optimize NegativeAck feature of Pulsar C++/Go Client.,Apache Pulsar,Apache Pulsar,"[[""datas"",""Kafka""]]",97
+2567d0310,67d87414-1513-4022-936b-672682a88585,1,进阶,邓靖桐,,为 Rainbond 实现 Kubeblocks 集成,Rainbond,,"[[""cloudnative"",""Docker""],[""cloudnative"",""Kubernetes""]]",312
+25b970139,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,丁博宁,,移植sysboost到RISC-V架构,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",139
+25b540186,b5499265-47fb-43a9-8c7d-a6678469d63f,1,基础,董畅,,用数据库存储代码提升开发效率,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""Compiler""]]",188
+25e4d0149,e4de262f-50b1-4f11-930b-8b8e841de420,1,进阶,董海玄,,铜锁密码库支持密码设备接口（SDF）和智能密码钥匙接口（SKF）功能,铜锁,,"[[""safe"",""RSA""],[""safe"",""PKI""],[""safe"",""SSL/TLS""],[""safe"",""AES""]]",149
+258940526,894c8671-dd57-4e47-9efc-e6f30ae2911e,0,进阶/Advanced,董嘉欣,Schema Evolution Support for SeaTunnel on Flink CDC Connector,SeaTunnel on Flink cdc connector 支持schema evolution,Apache SeaTunnel,,"[[""cloudnative"",""Flink""]]",532
+25c3e0105,c3e620a9-1296-480e-80db-137767231403,1,进阶,董泰恒,,基于高性能RISC-V处理器核“香山”的微架构UT验证——FTQ 与后端及取指令单元交互,香山开源社区,XiangShan Open Source Community,"[[""os"",""RISC-V""],[""os"",""Linux""],[""dev"",""pytest""]]",105
+258d90568,8d995d4c-b188-4690-9a53-c022dc7c19e3,1,进阶,董欣悦,,面向RISC-V向量扩展的性能评估基准测试的开发,Buddy Compiler,Buddy Compiler,"[[""os"",""RISC-V""],[""os"",""ARM""],[""os"",""x86""]]",575
+2518b0045,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,董一林,,基于RISC-V架构的全同态加密NTT运算加速设计与优化,openHiTLS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""SSL/TLS""]]",45
+250500113,05063d74-da6a-4d58-a213-e90119f0eebb,1,基础,董智豪,,使用 Nacos 实现 FIT 集群的注册中心,ModelEngine,,"[[""web"",""Spring Boot""],[""codelang"",""Programming Language""]]",113
+253ba0259,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,基础/Basic,杜家楷,Evolution and Migration of Volcano Admission Control from Webhooks to Declarative Policies,Volcano准入控制从Webhook到声明式策略的演进与迁移,Volcano社区,Volcano Community,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""]]",261
+25c6d0449,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,杜政霖,,MindSpore 框架下纯视觉 3D 检测模型（LSS 类）迁移与优化,昇思MindSpore,,"[[""datas"",""AI""]]",452
+25e7a0292,e7aea313-3d6d-420d-a96a-f11241bdfa96,0,基础/Basic,鄂祖安,LDBC Data Generator Integration for GraphAr,利用 GraphAr Spark API 实现 LDBC SNB Datagen 对 GraphAr 格式的直接输出,Apache GraphAr,Apache GraphAr,"[[""datas"",""Database""],[""datas"",""Graph Database""],[""datas"",""Spark""]]",294
+2572e0013,72e6f975-d2b8-4fa3-a377-441c1038db10,1,进阶,范天蓝,,P2P 支持基于 TCP 协议的文件传输,Dragonfly,Dragonfly,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""],[""safe"",""TCP/IP""],[""cloudnative"",""Docker""],[""cloudnative"",""Distributed Storage""]]",13
+253ba0314,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,进阶/Advanced,范旭,Data Dependency-Based Task Orchestration and Volcano Global Scheduling,基于数据依赖的任务编排与 Volcano Global 调度,Volcano社区,Volcano Community,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Spark""],[""cloudnative"",""HDFS""],[""os"",""Linux""]]",316
+25e980391,e98bbd0b-d1ac-450a-84dc-195a0cfbbda3,1,进阶,方家和,,Cloudberry Clean Room 原型系统设计与实现,Apache Cloudberry,Apache Cloudberry,"[[""safe"",""OAuth""],[""datas"",""PostgreSQL""],[""datas"",""Structured Database""]]",393
+25b970290,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,方佳敏,x86_64 User-space Compatibility on AArch64 and RISC-V Systems via Box64,基于 Box64 实现 x86_64 用户态程序在 AArch64 和 RISC-V 系统上的运行支持,openEuler 社区,openEuler,"[[""os"",""Linux""],[""codelang"",""Programming Language""],[""os"",""x86""],[""os"",""RISC-V""]]",292
+25c6d0455,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,方泱泱,,基于MindSpore的YOLOv12实现智能交通分析,昇思MindSpore,,"[[""datas"",""AI""]]",458
+257d60537,7d65cfc7-5b9f-40c0-a6fb-ba288ffbbfbe,1,进阶,方洲,,SimpleRenderer ⾼性能渲染优化与结构优化,Simple-XX,,"[[""os"",""x86""],[""os"",""GCC""],[""os"",""Perf""]]",543
+25aee0370,aeec05d8-4098-493c-82cc-80e1395a11f8,1,进阶,费海好,,国产数据库读写组件开发,大数据流水线系统πFlow,,"[[""datas"",""Database""],[""datas"",""Hadoop""],[""datas"",""HDFS""]]",372
+2598a0414,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,1,基础,冯俊康,,KubeEdge Dashboard UI优化与多语言（中文）支持,KubeEdge,KubeEdge,"[[""web"",""React""],[""web"",""UI""],[""web"",""Material UI""]]",416
+25b540355,b5499265-47fb-43a9-8c7d-a6678469d63f,1,基础,冯涛,,VSCode 插件增强-支持手表模拟器可视化布局,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""Linux""]]",357
+25aaf0482,aaff4eec-11b1-4375-997d-5eea8f51762b,1,进阶,冯旭,,Sentinel AI 应用场景 Token 限流调研和实现,Sentinel,,"[[""datas"",""AI""],[""web"",""Web Application""]]",486
+25e200049,e206d74f-81e7-4016-bc16-18a484ae641f,1,基础,冯雨飞,,数据库敏感列智能识别工具,OceanBase,OceanBase,"[[""datas"",""Natural Language Processing (NLP)""],[""datas"",""Database""],[""dev"",""AIOps""]]",49
+258e10395,8e1f9786-b898-4e62-af09-dbd21365c1d0,1,基础,伏西雨,,MateChat模板VSCode插件兼容支持,DevUI,,"[[""web"",""UI""],[""web"",""Vue.js""]]",397
+25c4c0073,c4cc2271-6627-4965-a5ec-37d5ac3c0ad8,1,进阶,付宇轩,,为Apollo提供完善的OpenAPI方式接口能力,Apollo开源社区,Apollo Open Source Community,"[[""web"",""Spring Boot""],[""web"",""Web Application""]]",73
+25cb90568,cb930a89-d315-4db0-89ee-c25d0bc93757,1,基础,高琛,,构建AI+硬件陪伴玩具,小胰宝,,"[[""chip"",""Chip Design/Verification""],[""codelang"",""Programming Language""]]",574
+25a1a0443,a1a5cfb7-ac01-4726-9edd-410e07655293,1,基础,高鹏飞,,基于 Spring AI Alibaba 的本地可观测与调试平台（前端）,Spring AI Alibaba,,"[[""web"",""Vue.js""]]",446
+25ed70263,ed765847-55a2-4051-9793-8748b9aae5a6,0,进阶/Advanced,高肖健,E2E of IPsce and offload Authorization,补充IPsec和offload Authorization的端到端测试,Kmesh,Kmesh,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""]]",265
+25bd30465,bd358f91-fc55-4a8e-968c-a43d28f3cef4,0,基础/Basic,高艺溦,Implement Location Sharing,实现位置共享,Rocket.Chat,Rocket.Chat,"[[""web"",""Desktop Application""],[""web"",""Electron""],[""web"",""Mobile Application""],[""web"",""npm""],[""web"",""React""],[""web"",""React Native""],[""web"",""UI""],[""web"",""UIKit""],[""web"",""UX""],[""web"",""Web Application""],[""web"",""Yarn""]]",468
+25b970287,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,高钰凯,Building and Integrating the SIONlib Parallel I/O Subsystem for openEuler,面向 openEuler 的高效并行 I/O 子系统 SIONlib 构建及相关工具链支持,openEuler 社区,openEuler,"[[""datas"",""HPC""]]",289
+2522d0425,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,耿韬,,openGauss 向量数据库集成Llama Stack,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",428
+2536e0200,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,龚昱帆,,运行时渲染解决方案,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",202
+25c520453,c52cb3cc-bb86-4345-874f-e889e5d89d31,1,基础,顾宝元,,为 vsag 增加 PC 端（Windows/macOS）开发和运行支持,vsag,,"[[""datas"",""AI""],[""datas"",""Vector Database""],[""os"",""x86""]]",456
+25c6d0301,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,顾昀,,基于MindSpore Quantum实现薛定谔-海森堡变分算法,昇思MindSpore,,"[[""datas"",""AI""]]",303
+25b970264,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,官健,,探索LLVM AArch64架构后端的代码生成优化机会,openEuler 社区,openEuler,"[[""os"",""Compiler""]]",266
+258860534,8867f7ac-c3a6-4d7d-8937-e6209ba1b047,0,进阶/Advanced,管理,Porting GCC 12's RISC-V Vector (RVV) extension support for deepin RISC-V,为 deepin RISC-V 移植 GCC 12 的 RISC-V Vector (RVV) 扩展支持,深度开源社区,deepin,"[[""codelang"",""Programming Language""],[""os"",""Complier""],[""os"",""Linux""],[""os"",""RISC-V""]]",540
+2573e0144,73e4d1f8-f80b-4c59-91ed-9488ce27c55f,1,进阶,桂思语,,基于算子学习的疾病负担外推与以糖网为例的气象环境——基因互作下的代谢病解析,飞桨PaddlePaddle,,"[[""datas"",""Deep Learning""],[""datas"",""Machine Learning""]]",144
+25c3e0121,c3e620a9-1296-480e-80db-137767231403,1,进阶,桂香伟,,基于高性能RISC-V处理器核“香山”的微架构UT验证——ICache预取和取指,香山开源社区,XiangShan Open Source Community,"[[""os"",""RISC-V""],[""os"",""Linux""],[""dev"",""pytest""]]",121
+256330502,63337bb3-3688-4c7c-8b34-2b2922665daf,0,基础/Basic,郭恩东,Dynamical stream interface implemented by C++ in a multimedia framework,多媒体处理框架中的动态流式处理接口C++实现,BMF字节跳动多媒体框架,BMF,"[[""datas"",""AI""],[""datas"",""LLM""]]",506
+25c6d0358,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,郭嘉梁,,基于MindSpore NLP实现Open-R1算法,昇思MindSpore,,"[[""datas"",""AI""]]",360
+25c6d0451,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,郭雷,,基于MindSpore生成式套件，构建多智能的多Agent交互金融语音客服,昇思MindSpore,,"[[""datas"",""AI""]]",454
+25b540348,b5499265-47fb-43a9-8c7d-a6678469d63f,1,进阶,郭先立,,RISC-V架构下CMSIS-DSP半精度和双精度运算函数向量化优化（V扩展指令）,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""Compiler""]]",350
+25ee40277,ee4090b9-539a-4777-a7b3-67678b71754b,1,基础,郭烨,,Dromara孵化器网站优化建设和主网站优化,dromara开源组织,,"[[""web"",""Vue.js""]]",279
+255b40362,5b4167b6-2f10-47a0-a7c8-927a313abbf6,0,进阶/Advanced,韩凡宇,Implement Automated LLM based Tech Label System for OpenDigger,开发基于 LLM 的 OpenDigger 项目自动化标签系统,OpenDigger,OpenDigger,"[[""datas"",""Data Science""]]",364
+251f80279,1f8ea42c-86c9-46b8-b1f5-344de5741ef0,1,进阶,韩子悦,,提升 Higress Console 对 AI 编码的兼容性,Higress,Higress,"[[""datas"",""AI""]]",281
+25b970224,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,郝逸飞,,kernel: Backport steal-time support for RISC-V,openEuler 社区,openEuler,"[[""os"",""Linux""],[""os"",""RISC-V""]]",226
+25c6d0357,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,郝宇泽,,基于MindSpore实现材料属性预测模型MatterSim的迁移开发,昇思MindSpore,,"[[""datas"",""AI""]]",359
+25a190083,a1906c80-af3d-4189-b26d-dfd2d86a2d3a,0,进阶/Advanced,郝悦,RISC-V Based KubeVirt Virtualization Enablement and Ecosystem Adaptation        ,基于RISC-V架构的KubeVirt虚拟化支持与生态适配,EulixOS,,"[[""os"",""RISC-V""],[""os"",""Linux""],[""os"",""Virtualization""],[""datas"",""AI""],[""cloudnative"",""Cloud Native""]]",83
+2551c0059,51c879a2-e35d-4a18-abed-4ca523b995e7,1,进阶,何财学,,为Zino框架实现AI服务抽象,Zino开发框架,,"[[""web"",""Web Application""],[""web"",""RESTful API""],[""datas"",""AI""]]",59
+25b540163,b5499265-47fb-43a9-8c7d-a6678469d63f,1,进阶,何东泽,,利用汇编优化riscv架构下musl的memory性能,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""Linux""],[""codelang"",""Programming Language""]]",163
+25bc30521,bc369204-2d8f-45b8-902b-144564d17ee4,0,进阶/Advanced,何贵闯,Implementing Copilot for Overleaf LaTeX Platform,为 Overleaf LaTeX 协作平台接入 LLM Copilot 功能,北京大学 Linux 俱乐部,,"[[""datas"",""AI""],[""web"",""Web Application""]]",526
+25f420441,f42fd38d-6bd7-43b9-898f-dbe10fd89957,1,基础,何坤彬,,基于Agent实现数据分析报告场景应用,DB-GPT,,"[[""datas"",""AI""],[""datas"",""Database""],[""datas"",""LLM""]]",444
+25a7f0506,a7f6e2ad-4acc-47f8-9471-4e54b9a166a6,1,进阶,何亮,,基于 Dubbo Triple 协议的零信任、高性能、可靠 Steaming 能力实现,Apache Dubbo,,"[[""web"",""Web Application""],[""web"",""Spring Cloud""],[""safe"",""JWT""],[""safe"",""OAuth""],[""safe"",""OpenIDConnect""]]",510
+2544e0062,44e53042-d59d-4eb1-9195-a8c81c868adc,1,基础,何沛阳,,Prometheus remote write 请求零分配解析,Apache HoraeDB,Apache HoraeDB,"[[""cloudnative"",""Prometheus""],[""datas"",""Non-relational Database""],[""web"",""Apache""]]",62
+25c6d0298,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,何诗雨,,量子启发算法超参数搜寻模块开发,昇思MindSpore,,"[[""datas"",""AI""]]",300
+2573e0132,73e4d1f8-f80b-4c59-91ed-9488ce27c55f,1,进阶,何世钊,,飞桨PaddleNLP-前沿模型模块化设计,飞桨PaddlePaddle,,"[[""datas"",""Natural Language Processing (NLP)""],[""datas"",""AI""]]",132
+25b970246,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,何豫磊,ZVM-based Automated Construction of openEuler Embedded Hybrid Deployment System,基于ZVM自动构建openEuler embedded混合部署系统,openEuler 社区,openEuler,"[[""os"",""Virtualization""],[""datas"",""Embedded Database""],[""os"",""RTOS""]]",248
+25c480531,c48b633f-d10f-433c-ab5e-4a7d4bbb218f,1,进阶,贺泽邦,,GCC-Fortran 的 Function Multi-Versioning 功能实现,清华大学 TUNA 协会,,"[[""os"",""GCC""]]",537
+250640477,064c15df-705c-483a-8fc8-02831370db14,0,进阶/Advanced,洪徐博,Provide MCP Server on the Seata Console,在Seata Console端提供MCP Server,Apache Seata,,"[[""datas"",""AI""]]",481
+25c6d0490,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,侯博森,,基于MindSpore和多视角立体匹配技术的稠密重建模型,昇思MindSpore,,"[[""datas"",""AI""]]",494
+25e3b0155,e3ba64ae-af33-44a2-96c7-1914c0790f5b,1,基础,胡海星,,KWDB语法和计算功能扩展,KWDB,,"[[""datas"",""Database""]]",155
+2522d0321,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,胡力俨,,openGauss向量数据库对接airbyte,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",323
+25b970241,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,胡鳗月,,研究面向企业级应用Linux系统的性能评价方法及验证工具,openEuler 社区,openEuler,"[[""os"",""Linux""]]",243
+250240002,0240fd06-cd19-4f2b-a397-a8f3414ebc51,0,基础/Basic,胡强,Implement formula calculation function for Excelize calculation engine,为 Excelize 公式计算引擎添加公式计算函数,Excelize,Excelize,"[[""codelang"",""Programming Language""]]",2
+25ab10294,ab188e59-fab8-468f-bc89-bdc2bd8b5e64,0,进阶/Advanced,胡世豪,Support Agent2Agent protocol management module,支持Agent2Agent服务管理模块,Nacos,Nacos,"[[""datas"",""AI""],[""cloudnative"",""Cloud Native""]]",296
+2532c0118,32cda81d-a705-4ab7-8b13-7c27a86ac19a,0,进阶/Advanced,胡泗聪,Implement Asynchronous Index Building Mechanism for GreptimeDB,为 GreptimeDB 实现异步索引构建机制,GreptimeDB,GreptimeDB,"[[""datas"",""Database""],[""cloudnative"",""Cloud Native""]]",118
+254f90153,4f94c999-d6b6-443a-8cac-88379438ec70,1,进阶,胡翊恒,,为opentelemetry-go-auto-instrumentation提供eino框架的大模型可观测能力,opentelemetry-go-auto-instrumentation,,"[[""os"",""Perf""]]",153
+255fc0171,5fc77071-bc74-46f7-9aaf-70570d4ebeb4,1,进阶,黄晨钊,,基于OpenYurt本地部署高可用Kubernetes集群,OpenYurt,,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""],[""cloudnative"",""Cloud Native""]]",171
+2590e0197,90eea893-33f7-404f-ad72-d2e1c14009bf,1,基础,黄得修,,openInula 2.0 升级迁移工具,openInula,,"[[""web"",""Babel""],[""web"",""React""],[""web"",""UI""],[""web"",""Webpack""],[""web"",""Web Application""]]",199
+250500169,05063d74-da6a-4d58-a213-e90119f0eebb,1,基础,黄定成,,优化 FIT for Python 的插件使用体系,ModelEngine,,"[[""codelang"",""Programming Language""],[""dev"",""DevOps""]]",169
+2598a0424,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,黄麒瑜,Physically Consistent and Interactable Indoor Simulation Scene Generation: Implementation Based on KubeEdge-Ianvs,物理一致可交互室内仿真场景生成：基于KubeEdge-Ianvs实现,KubeEdge,KubeEdge,"[[""datas"",""PyTorch""],[""datas"",""AI""]]",427
+2598a0410,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,1,进阶,黄秋瑞,,基于 KubeEdge 的云边视频流通信机制扩展,KubeEdge,KubeEdge,"[[""cloudnative"",""Kubernetes""],[""safe"",""WebSocket""]]",412
+25b970262,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,黄天翊,,secGear新增CCA TEE插件并对接global-trust-authority统一证明框架,openEuler 社区,openEuler,"[[""os"",""ARM""]]",264
+2598a0315,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,基础/Basic,黄庭,Support Using KubeEdgeTool Keadm on Windows OS,支持在Windows OS上使用KubeEdge部署工具keadm,KubeEdge,KubeEdge,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""]]",317
+25b970229,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,黄宣祺,,EulerPublisher-EUR集成与Web管理界面开发,openEuler 社区,openEuler,"[[""cloudnative"",""Docker""]]",231
+25aaf0483,aaff4eec-11b1-4375-997d-5eea8f51762b,1,进阶,黄毅弘,,Sentinel 自适应熔断功能的调研和实现,Sentinel,,"[[""web"",""Web Application""]]",487
+25c6d0356,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,黄玉含,,QuCOOP：迭代式求解复合二元优化问题,昇思MindSpore,,"[[""datas"",""AI""]]",358
+25c0f0017,c0fdb64b-1d94-41e0-b5d6-a6fb94862c62,0,进阶/Advanced,黄耘青,Audio and video recording and playback based on WebRTC/WHEP,基于 WebRTC/WHEP 协议的实现录制回放功能,Live777,Live777,"[[""web"",""Web Application""]]",17
+25b740521,b74e6d5a-4356-4855-854e-c21444d0a1bc,1,进阶,黄增谦,,Scheme-langserver兼容Goldfish Scheme+R7RS,墨客实验室,XmacsLabs,"[[""codelang"",""Programming Language""]]",525
+258d90562,8d995d4c-b188-4690-9a53-c022dc7c19e3,1,进阶,纪佳骏,,面向大语言模型的多级编译优化集成,Buddy Compiler,Buddy Compiler,"[[""os"",""Compiler""],[""os"",""RISC-V""]]",568
+25b970252,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,季子墨,,PGO反馈优化可用性增强,openEuler 社区,openEuler,"[[""os"",""Compiler""],[""os"",""LLVM""]]",254
+25b970221,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,贾怀琦,,mugen 框架测试结果智能分析,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",223
+25c6d0373,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,贾阔源,,基于vllm-mindspore实现beamsearch算法功能,昇思MindSpore,,"[[""datas"",""AI""]]",375
+25aca0558,acac956c-ff57-4ec8-9657-e5a14ff91b62,1,进阶,江飞兵,,基于 eBPF 实时锁竞争感知的 sched_ext 调度策略优化,Linux内核之旅开源社区,,"[[""os"",""GNU""],[""os"",""Linux""],[""os"",""Perf""],[""os"",""Ubuntu""],[""os"",""x86""],[""os"",""Clang""]]",564
+256800473,6808e41a-f9d5-446d-a227-53a13f568125,1,基础,江鹏飞,,Sermant 控制面实现用户认证与SSO集成能力,Sermant,,"[[""cloudnative"",""Cloud Native""]]",477
+2518b0182,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,姜蕊,,面向openHiTLS增加国密SM9的快速实现功能,openHiTLS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""PKI""],[""safe"",""SSL/TLS""]]",182
+2534b0274,34ba2611-6d7e-4869-95d0-ec977b09ecdf,1,基础,姜睿豪,,State 存储改造并进行性能压测对比,LF Edge eKuiper,LF Edge eKuiper,"[[""datas"",""Database""],[""datas"",""Embedded Database""],[""datas"",""Flink""]]",276
+255c40339,5c4a1cd8-f57b-4f77-a356-0598defeba07,1,基础,姜鑫润,,Karmada 官方文档体系优化与国际化建设,Karmada,Karmada,"[[""cloudnative"",""Kubernetes""]]",341
+25c520445,c52cb3cc-bb86-4345-874f-e889e5d89d31,1,进阶,蒋超,,为 vsag 增加 ARM 指令集支持,vsag,,"[[""datas"",""AI""],[""datas"",""Vector Database""],[""os"",""ARM""],[""os"",""Linux""]]",448
+252170416,21716b94-f419-409b-ae75-901293275dc6,0,进阶/Advanced,蒋官语,OpenSeek,OpenSeek开源共建大模型项目,FlagTree,,"[[""datas"",""AI""]]",418
+255000466,5003a9d5-4dfa-4568-9d56-4320c68b46f1,1,进阶,蒋玥,,OI Wiki 外链自动存档和链接替换系统,OI Wiki,,"[[""datas"",""AI""],[""datas"",""Deep Learning""],[""datas"",""MongoDB""],[""datas"",""Natural Language Processing (NLP)""],[""datas"",""MySQL""],[""datas"",""Scikit-learn""],[""datas"",""SciPy""],[""dev"",""CI""],[""dev"",""CD""]]",469
+25b970250,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,蒋政,User-Space PKCS#11 Cryptographic Module Based on SKF Interface Supporting OpenSSH Authentication,基于 SKF 接口实现支持 OpenSSH 连接认证的 PKCS#11 用户态密码模块,openEuler 社区,openEuler,"[[""os"",""Linux""]]",252
+25ee30042,ee3b6f00-901f-4686-924a-969a322fd6bf,1,基础,蒋子烜,,为doc-apis提供可配置的接口文档出入参下划线驼峰互转功能,doc-apis,,"[[""web"",""RESTful API""],[""web"",""Spring Boot""]]",42
+251b90078,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,基础/Basic,焦新亨,VChart Exit Special Effects Based on Image Processing,基于图像处理的 VChart 退场特效,VisActor,VisActor,"[[""web"",""UIKit""]]",78
+251dd0080,1dd86289-276a-4d70-b15e-814b2c476d97,1,进阶,金子博,,跨平台客户端 Monobean 实现代码仓库、GitHub 同步和去中心化传输,Web3 Infrastructure Foundation,,"[[""dev"",""Git""],[""os"",""FUSE""],[""web"",""GTK""]]",80
+2587f0330,87f3a68b-b420-4793-8484-8a24112d33c8,2,Advanced,靳一轩,,GStreamer Backend for vhost-device-sound,RustVMM,,"[[""os"",""Virtualization""],[""os"",""Emulation""],[""os"",""KVM""],[""os"",""Linux""]]",332
+2598a0359,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,景文卿,Data Mixture Optimization Algorithm for VLA Fine-Tuning Based on KubeEdge-Ianvs,基于KubeEdge-Ianvs的VLA微调数据配比优化算法,KubeEdge,KubeEdge,"[[""datas"",""AI""],[""datas"",""PyTorch""],[""cloudnative"",""Kubernetes""]]",361
+255650130,565a7ada-dc49-46bc-bde5-15c075646e5a,0,基础/Basic,柯磊,Visual Studio Code Plugin for Structured Search/Replace Based on tree-sitter.mbt,基于 tree-sitter.mbt 进行结构化查找/替换的 Visual Studio Code 插件,MoonBit 社区,MoonBit Community,"[[""codelang"",""Programming Language""]]",130
+25e1f0098,e1fb5b8d-125a-4138-b756-25bd32c0a31a,1,基础,郐铭涛,,NB-CLI 命令行工具交互优化,NoneBot,,"[[""web"",""UI""],[""dev"",""DevOps""]]",98
+256590514,659abd4f-ab65-4e41-9ba1-6824cefc1e0c,1,进阶,邝嘉诺,,RustSBI文档检索优化,RustSBI开源引导程序,,"[[""datas"",""AI""],[""datas"",""LLM""],[""os"",""RISC-V""],[""datas"",""PyTorch""]]",518
+25fed0168,fed579da-ce07-48eb-9d05-f44c4afbbb77,0,基础/Basic,邝瑶雯,Writing a plugin for formatting Chinese text according to modern standards in ONLYOFFICE Editors,开发一款插件，用于在 ONLYOFFICE 编辑器中按照现代标准格式化中文文本,ONLYOFFICE,ONLYOFFICE,"[[""web"",""Web Application""],[""web"",""Desktop Application""]]",168
+25c6d0297,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,赖国辉,,MindSpore Quantum HUBO求解器开发,昇思MindSpore,,"[[""datas"",""AI""]]",299
+251b90077,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,基础/Basic,赖景康,VTable Gantt chart zoom interaction,  VTable  甘特图 zoom 交互,VisActor,VisActor,"[[""web"",""React""],[""web"",""UI""],[""web"",""Vue.js""]]",77
+25e740211,e74b6659-8ff9-49a0-a098-124884d10fc1,1,基础,雷永琪,,面向学生贡献度的定制化计算模块设计与实现,OpenTalent,,"[[""web"",""Spring Boot""],[""web"",""Vue.js""],[""web"",""Webpack""],[""web"",""Web Application""],[""web"",""Babel""]]",213
+2598a0305,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,基础/Basic,黎承祖,The Optimization of KubeEdge Device Management Practical Case Studies,KubeEdge设备管理实践案例优化,KubeEdge,KubeEdge,"[[""cloudnative"",""Kubernetes""],[""safe"",""MQTT""]]",307
+257180223,718924df-94a6-4085-80f4-d8c4e2999562,0,进阶/Advanced,李奥然,openKylin virtual keyboard support for voice input,openKylin虚拟键盘语音输入支持,openKylin社区,,"[[""os"",""Linux""],[""os"",""x86""],[""web"",""Qt""]]",225
+25c520442,c52cb3cc-bb86-4345-874f-e889e5d89d31,1,进阶,李灿,,为 HGraph 索引实现 INT8 类型支持,vsag,,"[[""datas"",""AI""],[""datas"",""Vector Database""],[""os"",""Linux""],[""os"",""x86""],[""os"",""ARM""]]",445
+2572e0015,72e6f975-d2b8-4fa3-a377-441c1038db10,1,进阶,李辰,,基于 Webhook 自动注入 P2P 分发扩展,Dragonfly,Dragonfly,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""]]",15
+25c3e0089,c3e620a9-1296-480e-80db-137767231403,1,进阶,李承昱,,基于高性能RISC-V处理器核“香山”的微架构UT验证——ITLB模块,香山开源社区,XiangShan Open Source Community,"[[""os"",""RISC-V""],[""os"",""Linux""],[""dev"",""pytest""]]",89
+259670060,967c6493-016e-4ff4-be14-44d796c72dc6,0,基础/Basic,李飞扬,Implement the observability architecture for RobustMQ,为 RobustMQ 实现可观测体系,RobustMQ,RobustMQ,"[[""cloudnative"",""Kafka""],[""safe"",""MQTT""],[""web"",""Web Application""]]",60
+25b970254,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,李佳俊,,使用 hb 框架建构 openEuler 嵌入式系统,openEuler 社区,openEuler,"[[""os"",""Linux""]]",256
+25b540194,b5499265-47fb-43a9-8c7d-a6678469d63f,1,进阶,李佳亮,,OpenHarmony 浏览器AI能力增强,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""Linux""],[""datas"",""AI""]]",196
+2522d0318,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,李佳桐,,openGauss向量数据库对接知识工程最佳实践,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",320
+256590400,659abd4f-ab65-4e41-9ba1-6824cefc1e0c,1,进阶,李杰峰,,适用于Kendryte芯片的组件化系统驱动解决方案,RustSBI开源引导程序,,"[[""os"",""RISC-V""]]",402
+2522d0322,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,李京召,,SUSE操作系统集成openGauss 6.0.0 LTS,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",324
+25ab10208,ab188e59-fab8-468f-bc89-bdc2bd8b5e64,0,基础/Basic,李轲,Nacos Client Observability Enhancement,Nacos 客户端可观测性补强,Nacos,Nacos,"[[""cloudnative"",""Cloud Native""]]",210
+25b970253,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,李林锦,,为 openHiTLS 适配 RISC-V 架构，添加在 RISC-V 架构 CPU 上的算法性能优化,openEuler 社区,openEuler,"[[""os"",""Linux""]]",255
+25e200048,e206d74f-81e7-4016-bc16-18a484ae641f,1,基础,李铭扬,,基于 AI 的数据库模拟数据生成工具,OceanBase,OceanBase,"[[""datas"",""AI""],[""datas"",""LLM""],[""os"",""Linux""]]",48
+259c00471,9c00a2d2-e32f-407e-8ea4-f5925f8c2837,2,Advanced,李沛泽,,Improving Embox RTOS as a RTOS for IoT,Embox,,"[[""dev"",""Git""],[""os"",""RTOS""],[""os"",""QEMU""],[""os"",""Linux""],[""os"",""GNU""],[""os"",""GDB""],[""os"",""GCC""],[""os"",""Complier""],[""safe"",""Socket""],[""safe"",""TCP/IP""],[""codelang"",""Programming Language""]]",475
+25aca0560,acac956c-ff57-4ec8-9657-e5a14ff91b62,1,进阶,李瑞东,,评估 eBPF 在资源受限的嵌入式 RISC-V 平台上的可行性与性能开销,Linux内核之旅开源社区,,"[[""os"",""Clang""],[""os"",""Debian""],[""os"",""GNU""],[""os"",""Linux""],[""os"",""Perf""],[""os"",""RISC-V""],[""os"",""Ubuntu""],[""os"",""x86""]]",566
+25f640313,f64d9254-cf74-40f9-9c8d-9b4e882e5ff0,0,进阶/Advanced,李锐鹏,Data partition balancing (at the node level) of the multi - replica engine in the CubeFS data subsystem,CubeFS 数据子系统多副本引擎数据分区均衡（节点级别）,CubeFS,,"[[""cloudnative"",""Distributed Storage""],[""cloudnative"",""CubeFS""],[""cloudnative"",""Cloud Native""]]",315
+2556e0384,56e91299-431b-4fd6-aa26-4f3618d33343,1,基础,李瑞琦,,RT-Thread 玄铁全系列RISC-V内核支持,RT-Thread,,"[[""os"",""RISC-V""],[""os"",""RTOS""]]",386
+252170462,21716b94-f419-409b-ae75-901293275dc6,1,进阶,李瑞滔,,基于Triton语言的高性能AI算子开发与模型应用,FlagTree,,"[[""os"",""Compiler""],[""datas"",""GPU""],[""datas"",""HPC""],[""datas"",""PyTorch""],[""datas"",""AI""]]",465
+251b90072,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,基础/Basic,李杉,VMind Image-to-Chart,VMind 图生图表,VisActor,VisActor,"[[""datas"",""AI""],[""datas"",""LLM""]]",72
+25e770019,e77ce74e-1b36-49b4-9bb6-974ddbe21da7,1,进阶,李书实,,为 KWOK 添加 模拟真实 Pod 行为的策略配置,KWOK,KWOK,"[[""cloudnative"",""Kubernetes""]]",19
+25b970570,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,李思懿,,为 openEuler 文档开发生产 开发智能化写作助手,openEuler 社区,openEuler,"[[""datas"",""AI""]]",579
+25c6d0509,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,李伟航,,基于MindSpore框架下GaussionLSS的迁移与优化,昇思MindSpore,,"[[""datas"",""AI""]]",513
+257180227,718924df-94a6-4085-80f4-d8c4e2999562,0,进阶/Advanced,李文莹,openKylin File Manager support for office document preview,openKylin文件管理器办公文件预览支持,openKylin社区,,"[[""os"",""Linux""],[""os"",""x86""],[""web"",""Qt""]]",229
+2518b0051,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,基础,李向东,,使用形式化的方法对openHiTLS中chacha20算法实现进行功能正确性验证,openHiTLS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""SSL/TLS""]]",51
+251190027,119ef0d9-7aac-431d-bb9f-d39864c168ff,0,基础/Basic,李萧,Implementing data source plugin function for NebulaGraph Exchange,为 NebulaGraph Exchange 支持数据源插件化,NebulaGraph,NebulaGraph,"[[""datas"",""Database""],[""datas"",""Graph Database""],[""datas"",""Spark""]]",27
+25c3e0124,c3e620a9-1296-480e-80db-137767231403,1,进阶,李小龙,,基于高性能RISC-V处理器核“香山”的微架构UT验证——ICache顶层和控制处理,香山开源社区,XiangShan Open Source Community,"[[""os"",""RISC-V""],[""os"",""Linux""],[""dev"",""pytest""]]",124
+254a40040,4a48d322-64ba-4487-9bf8-83c4744c8884,0,进阶/Advanced,李鑫,Implement compile-time code generation functionality for Fury GO.,为Fury GO实现编译时代码生成功能,Apache Fory,Apache Fory,"[[""codelang"",""Programming Language""]]",40
+25b970288,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,李幸幸,Enable VTK for openEuler and implement a demo program for 3D reconstruction of medical images based on VTK,为openEuler使能VTK并基于VTK实现医学图像三维重建demo程序,openEuler 社区,openEuler,"[[""os"",""x86""]]",290
+25bc90131,9f7da647-7a2c-48df-8303-8c5013615f1d,0,进阶/Advanced,李雪涛,Building AI gateway and AI governance capability integration based on Dubbo-go-Pixiu,基于Dubbo-go-Pixiu构建AI网关及AI治理能力集成,pixiu社区,pixiu,"[[""datas"",""LLM""],[""safe"",""HTTP""],[""cloudnative"",""Cloud Native""]]",131
+255930134,5932fbcc-1556-40c7-b34a-e015fa33914a,1,进阶,李妍彤,,Apache ShardingSphere: 增强 Hive SQL 解析引擎，适配更多 DDL、DML 语句,Apache ShardingSphere,,"[[""datas"",""Hive""]]",134
+25ce30009,ce385095-0edc-4542-8d3c-bba51cf39af8,1,基础,李宇航,,基于三维引擎的BMC硬件展示,OurBMC社区,,"[[""web"",""Vue.js""]]",9
+25c6d0426,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,李振兴,,基于MindSpore代码助手系统开发,昇思MindSpore,,"[[""datas"",""AI""]]",429
+2563e0459,63ece08b-7950-45fe-a53b-53ed74ed84b5,0,基础/Basic,李卓,Unified Lattice Representation API,面向对象的格点lattice生成,TensorCircuit,TensorCircuit,"[[""datas"",""NumPy""]]",462
+258bf0532,8bf4a200-dfac-47ea-af19-5b03caa0d6d3,0,进阶/Advanced,李卓,Design of an AI-Driven Python-to-C Compiler Accelerator and Automated Validation Platform for PikaPython,面向PikaPython的AI驱动Python-C编译加速器与自动化验证平台设计,PikaPython,PikaPython,"[[""datas"",""AI""],[""codelang"",""Programming Language""],[""dev"",""CD""],[""dev"",""CI""],[""os"",""Compiler""],[""os"",""FreeRTOS""],[""os"",""GCC""],[""os"",""RTOS""]]",538
+2556e0386,56e91299-431b-4fd6-aa26-4f3618d33343,1,基础,李梓涵,,RT-Thread 代码覆盖率测试,RT-Thread,,"[[""os"",""RTOS""]]",388
+258e10392,8e1f9786-b898-4e62-af09-dbd21365c1d0,1,基础,李子涵,,MateChat新增附件组件,DevUI,,"[[""web"",""UI""],[""web"",""Vue.js""]]",394
+25b970141,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,李子建,,dpdk的RISCV性能优化,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",141
+25cd20190,cd2fb95f-429c-4f75-a358-ad55fc500fcb,1,进阶,梁淑琪,,重新设计BMQ调度算法中运行队列的当前任务,Project C,Project C,"[[""os"",""Linux""]]",192
+254290182,42920502-6476-4380-9ed0-ff7b90ad9f03,1,进阶,梁炫栋,,为TDgpt 增加 Prophet 时序数据分析模型,TDengine,,"[[""datas"",""AI""],[""datas"",""Database""],[""datas"",""Structured Database""]]",184
+2572e0014,72e6f975-d2b8-4fa3-a377-441c1038db10,1,进阶,梁雪冬,,P2P 支持基于 QUIC 协议的文件传输,Dragonfly,Dragonfly,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""],[""cloudnative"",""Distributed Storage""]]",14
+2552a0008,52a87b98-0358-4dba-acc1-35db08e9e689,1,进阶,廖哲豪,,为Easy-Es实现向量查询功能,Easy-Es,,"[[""cloudnative"",""Elasticsearch""]]",8
+25ec80457,ec8b597b-248f-4592-bd1c-be22e52a5654,1,进阶,廖紫江,,Text2Gremlin 的数据生成和模型微调系统,Apache HugeGraph,Apache HugeGraph,"[[""datas"",""Data Science""],[""datas"",""Graph Database""],[""datas"",""AI""],[""os"",""Compiler""],[""codelang"",""Programming Language""]]",460
+25e3b0156,e3ba64ae-af33-44a2-96c7-1914c0790f5b,1,进阶,林佳伟,,KWDB原生RESTful接口面向性能的重构,KWDB,,"[[""datas"",""Database""]]",156
+250dc0412,0dca9fd4-2728-4b8e-b384-389c951fd490,0,进阶/Advanced,林剑楠,Improvement of SpinalHDL Library Compatibility with Verilator Subsequent Versions,SpinalHDL库与Verilator后续版本兼容性提升,SpinalHDL,SpinalHDL,"[[""chip"",""Chip Design/Verification""]]",414
+25f630472,f63a0615-2ab3-49ee-985c-d58f8408aece,0,基础/Basic,蔺浩哲,Apache Doris: Preventing BE Coredump on Disk Failures,Apache Doris：BE Coredump 磁盘故障预防策略,Apache Doris,Apache Doris,"[[""datas"",""Database""]]",476
+25c6b0468,c6b0898b-989d-4dfc-b5cd-f350ecc039d5,1,基础,刘德宝,,Hippo4j Server 端参数协议升级与 SPI 扩展验证,OpenGoofy开源社区,,"[[""dev"",""DevOps""]]",471
+25c6d0366,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,刘光宇,,基于MindSpore实现小数据集训练粗网格高精度PDE求解模型,昇思MindSpore,,"[[""datas"",""AI""]]",368
+25c6d0431,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,刘浩宇,,基于Ray+MindSpore+Milvus实现开箱即用的分布式RAG应用,昇思MindSpore,,"[[""datas"",""AI""]]",434
+257280068,7286a2dd-7b46-4795-a011-817af3e3cde6,1,基础,刘济荣,,面向复杂Text2GQL任务的数据模拟和模型训练,TuGraph,TuGraph,"[[""datas"",""Graph Database""],[""datas"",""AI""]]",68
+251760142,176182b5-031b-4793-9180-96b46a0544a3,1,基础,刘嘉俊,,具身推理器Embodied-Reasoner,AGIROS,,"[[""datas"",""AI""],[""datas"",""Computer Vision(CV)""],[""datas"",""Deep Learning""]]",142
+25d040553,d0485c5b-3389-4591-b095-10451d9a39d8,1,进阶,刘靖南,,镜像站文档与 CLI 工具代码自动同步生成工具的研发,华中科技大学开放原子开源俱乐部,HUST OpenAtom Open Source Club,"[[""os"",""Linux""]]",559
+250780018,0783f7e3-2127-4df8-bece-7ca47f1cd88b,1,基础,刘龙辉,,MySQL审核规则优化，实现子查询嵌套层数建议,爱可生开源社区,,"[[""datas"",""MySQL""],[""datas"",""Relational Database""],[""dev"",""DevSecOps""]]",18
+25ee40202,ee4090b9-539a-4777-a7b3-67678b71754b,1,基础,刘美琴,,Dromara 开源社区一体化管理系统,dromara开源组织,,"[[""web"",""Vue.js""],[""web"",""Spring Boot""],[""web"",""RESTful API""]]",204
+25f3e0434,f3ea6d02-4c9c-4638-8ec6-dfba26040cf6,1,基础,刘舜尧,,自由及开源软件简中本地化工作,安同开源社区（AOSC）,Anthon Open Source Community,"[[""web"",""Desktop Application""],[""web"",""UI""],[""web"",""UX""]]",437
+25b740551,b74e6d5a-4356-4855-854e-c21444d0a1bc,2,Basic,刘万涛,,Git-based STEM Wiki system for Mogan STEM,墨客实验室,XmacsLabs,"[[""dev"",""CD""],[""dev"",""CI""],[""dev"",""Git""],[""dev"",""AIOps""],[""dev"",""LLMOps""],[""os"",""Debian""]]",557
+255c40413,5c4a1cd8-f57b-4f77-a356-0598defeba07,1,基础,刘文静,,为 Karmada Dashboard 引入自动化测试,Karmada,Karmada,"[[""cloudnative"",""Kubernetes""]]",415
+25b970151,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,刘翔奇,,基于Linux操作系统的关键进程自愈机制实现,openEuler 社区,openEuler,"[[""dev"",""DevOps""]]",151
+25b970138,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,刘翔宇,,向 mugen 测试框架中添加特性 RPM 国密签名，国密算法，secDectector 测试套和测试用例,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",138
+25ec80519,ec8b597b-248f-4592-bd1c-be22e52a5654,1,基础,刘骁南,,HugeGraph Gremlin 性能与安全优化 (Java 17),Apache HugeGraph,Apache HugeGraph,"[[""codelang"",""Programming Language""],[""datas"",""Database""],[""datas"",""Graph Database""]]",523
+25fc00530,fc0dbe54-904f-4a3e-9d58-80e28e78b400,2,Advanced,刘鑫豪,,StreamPipes Extension Services Load Balancer,Apache StreamPipes,Apache StreamPipes,"[[""codelang"",""Programming Language""],[""cloudnative"",""Cloud Native""]]",536
+255200087,5206bfbc-9364-4327-8f0b-f888d8407558,1,基础,刘馨鸿,,基于 Rust-For-Linux 重构 HyperEnclave 驱动,HyperEnclave,HyperEnclave,"[[""os"",""Linux""]]",87
+250640478,064c15df-705c-483a-8fc8-02831370db14,0,进阶/Advanced,刘星岳,AI Agent Workflow Based on Seata,基于seata 的 AI Agent Workflow,Apache Seata,,"[[""datas"",""AI""]]",482
+253ba0225,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,基础/Basic,刘旭升,Device Plugin-based GPU Virtualization and Unified Model Reporting for Cloud-Native Scenarios,面向云原生场景的Device Plugin GPU虚拟化与型号上报统一管理,Volcano社区,Volcano Community,"[[""datas"",""AI""],[""datas"",""GPU""],[""dev"",""Git""],[""cloudnative"",""Docker""],[""cloudnative"",""Kubernetes""]]",227
+25b970217,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,刘颜铭,,isocut在RISC-V架构环境下的完整适配和验证,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",219
+257180219,718924df-94a6-4085-80f4-d8c4e2999562,0,进阶/Advanced,刘燕,openKylin system settings support for application uninstallation,openKylin系统设置应用卸载支持,openKylin社区,,"[[""os"",""Linux""],[""os"",""x86""],[""web"",""Qt""]]",221
+25cb90567,cb930a89-d315-4db0-89ee-c25d0bc93757,1,基础,刘一树,,AI Gateway,小胰宝,,"[[""web"",""Web Application""],[""codelang"",""Programming Language""]]",573
+254a40041,4a48d322-64ba-4487-9bf8-83c4744c8884,0,进阶/Advanced,刘宇阳,Implementing Type Forward/Backward Compatible Serialization For Fury Rust,为Fury Rust实现基于元数据共享的类型前后兼容模式序列化,Apache Fory,Apache Fory,"[[""codelang"",""Programming Language""]]",41
+254f30408,4f33e117-5b4c-4167-93be-46f844e1c87d,0,进阶/Advanced,刘雨嘉,NeuCharFramework: An AI-native modular rapid development framework ,NeuCharFramework：AI 原生模块化快速开发框架,盛派开发者社区,,"[[""datas"",""AI""],[""datas"",""LLM""],[""datas"",""Database""],[""cloudnative"",""Docker""],[""dev"",""Git""],[""cloudnative"",""Kubernetes""],[""web"","".NET""],[""datas"",""Semantic Kernel""]]",410
+25b970256,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,刘哲浩,,面向循环中SVE访存指令的基址+偏移模式的冗余指令消除,openEuler 社区,openEuler,"[[""os"",""LLVM""],[""os"",""Linux""],[""os"",""GDB""]]",258
+251190057,119ef0d9-7aac-431d-bb9f-d39864c168ff,0,进阶/Advanced,刘芷溢,Implementing ANN Search for NebulaGraph,为 NebulaGraph 支持向量近似近邻检索,NebulaGraph,NebulaGraph,"[[""datas"",""Database""],[""datas"",""Graph Database""],[""datas"",""Vector Database""],[""datas"",""LLM""]]",57
+2595a0028,95a9e459-a200-4a26-bc0a-81074c2d89be,0,进阶/Advanced,刘卓恒,Implementing Heartbeat Revision Version Control for Koupleless Module Operation and Scheduling Pipeline,Koupleless 模块运维调度链路增加心跳 revision 版本控制,SOFAStack 社区,SOFAStack Community,"[[""cloudnative"",""Kubernetes""],[""web"",""Spring Boot""]]",28
+2590f0536,90fe7a64-0ec0-4c60-963d-becc7e95f977,1,进阶,柳煜辰,,Cirno：支持以写入时复制（CoW）模式进行依赖管理的应用框架,Koishi,,"[[""web"",""Desktop Application""]]",542
+25ed70327,ed765847-55a2-4051-9793-8748b9aae5a6,0,进阶/Advanced,卢靖超,Kmesh supports multi-clusters,Kmesh支持多集群,Kmesh,Kmesh,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""],[""safe"",""SSL/TLS""]]",329
+2537f0517,37f3a4b4-c004-46c3-aa0c-57a49ca73b5b,0,基础/Basic,卢杨,Enhancing Agent Dialogue Capabilities Based on agentUniverse Multi-Agent Framework,基于agentUniverse多智能体框架的智能体对话能力增强,agentUniverse,,"[[""datas"",""AI""],[""datas"",""LLM""],[""web"",""Vue.js""],[""web"",""React""],[""web"",""Angular""]]",521
+255c40243,5c4a1cd8-f57b-4f77-a356-0598defeba07,1,基础,鲁雨博,,Karmadactl init 支持设置组件启动参数,Karmada,Karmada,"[[""cloudnative"",""Kubernetes""]]",245
+251a60573,1a699957-f67f-46d6-8f4e-7afb08c29bf9,0,进阶/Advanced,路昊东,Support AIBrix session tracking for LLM request ,支持 AIBrix 的 LLM 请求会话追踪功能,AIBrix,,"[[""datas"",""LLM""],[""datas"",""AI""],[""cloudnative"",""Kubernetes""]]",582
+25e980364,e98bbd0b-d1ac-450a-84dc-195a0cfbbda3,1,进阶,陆晔,,pgcrypto 扩展支持 SM2/SM3/SM4 等国密算法,Apache Cloudberry,Apache Cloudberry,"[[""datas"",""PostgreSQL""],[""datas"",""Structured Database""],[""datas"",""Database""]]",366
+2522b0024,22b1e1cb-92ef-446d-b951-1b92f6535cb4,1,进阶,陆尹凯,,优化客户端和服务器端的通讯方式,volclava,,"[[""codelang"",""Programming Language""],[""safe"",""TCP/IP""],[""cloudnative"",""Distributed Storage""],[""os"",""CentOS""],[""os"",""GCC""],[""os"",""GDB""],[""os"",""GNU""],[""os"",""Linux""]]",24
+255200112,5206bfbc-9364-4327-8f0b-f888d8407558,1,基础,陆云天,,基于Rust语言的轻量化TPM软件栈的实现,HyperEnclave,HyperEnclave,"[[""os"",""Linux""]]",112
+25f630474,f63a0615-2ab3-49ee-985c-d58f8408aece,0,基础/Basic,陆志屏,Apache Doris: Enhance partition function,Apache Doris 分区功能增强,Apache Doris,Apache Doris,"[[""datas"",""Database""]]",478
+255080485,50864b24-ce35-490f-b14b-a3b9d51fae7a,1,进阶,吕泓志,,Casbin核心权限库改进（Go + Java）,Casbin,,"[[""cloudnative"",""Cloud Native""],[""safe"",""OAuth""]]",489
+2598a0389,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,吕洵,Cloud-Edge Collaboration Large Model Simulation Environment Oriented to Privacy-Utility Evaluation,面向隐私-效用评测的云边协同大模型仿真环境,KubeEdge,KubeEdge,"[[""datas"",""LLM""],[""datas"",""PyTorch""],[""cloudnative"",""Kubernetes""],[""datas"",""TensorFlow""]]",391
+2574b0099,74bfef73-c313-4d12-81b3-c5a82dcaff81,0,进阶/Advanced,罗传杰,Implementing logind-Compatible Session Management APIs for turnstile,为 turnstile 实现兼容 logind 的会话管理 API,eweOS,eweOS,"[[""os"",""Linux""]]",99
+25ff10093,ff144b94-b2ac-42fb-8c05-c6922058cb42,0,进阶/Advanced,罗少权,RunC on DragonOS,移植RunC到DragonOS,DragonOS开源社区,,"[[""cloudnative"",""Docker""],[""cloudnative"",""Docker Compose""],[""cloudnative"",""Kubernetes""],[""cloudnative"",""Cloud Native""],[""os"",""Cgroups""],[""os"",""Linux""],[""os"",""x86""]]",93
+2598a0406,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,基础/Basic,罗馨怡,Optimize data requests and processing in the KubeEdge Dashboard,优化KubeEdge Dashboard数据处理逻辑，引入新特性,KubeEdge,KubeEdge,"[[""cloudnative"",""Kubernetes""],[""web"",""React""]]",408
+255650271,565a7ada-dc49-46bc-bde5-15c075646e5a,0,基础/Basic,罗宇航,UI Component Library Based on MoonBit and TEA Architecture,基于MoonBit和TEA架构的UI组件库,MoonBit 社区,MoonBit Community,"[[""web"",""Web Application""],[""web"",""UI""]]",273
+25c6d0363,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,罗袁涵宇,,基于转录组表达建模的药物扰动大模型开发,昇思MindSpore,,"[[""datas"",""AI""]]",365
+25b970448,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,马浩量,,面向openEuler distroless镜像的SDF自动生成工具开发,openEuler 社区,openEuler,"[[""cloudnative"",""Cloud Native""],[""codelang"",""Programming Language""]]",451
+25ed70312,ed765847-55a2-4051-9793-8748b9aae5a6,0,进阶/Advanced,马浩原,Kmesh-daemon upgrades traffic without disruption,Kmesh-daemon升级流量无中断,Kmesh,Kmesh,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""],[""os"",""Linux""]]",314
+25c6d0447,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,马龙,,基于MindSpore生成式套件的虚拟试衣SOTA模型复现+应用案例开发,昇思MindSpore,,"[[""datas"",""AI""]]",450
+2536e0184,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,马茂元,,完善TinyVue对于nuxt工程的全面支持,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",186
+2563e0075,63ece08b-7950-45fe-a53b-53ed74ed84b5,0,进阶/Advanced,马卫国,QuditCircuit Interface,Qudit 界面支持,TensorCircuit,TensorCircuit,"[[""datas"",""TensorFlow""],[""datas"",""PyTorch""],[""datas"",""GPU""]]",75
+25c6d0430,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,马晓桐,,基于MindSpore Transformers实现AI孪生人Second Me,昇思MindSpore,,"[[""datas"",""AI""]]",433
+254160233,4169274d-0d8f-4836-96a4-cc9061ee7a24,0,基础/Basic,马逸飞,ArceOS: A Componentized Unikernel OS Developed with Rust-Based,ArceOS：基于Rust的组件化Unikernel架构操作系统内核,唐图社区,,"[[""os"",""RTOS""],[""codelang"",""Programming Language""],[""os"",""QEMU""],[""os"",""Linux""]]",235
+25fe90499,fe90a746-7d49-4474-a719-770ea082ec4c,1,进阶,马云翔,,支持RISC-V架构的Casibase AI知识库系统,Casibase AI社区,,"[[""os"",""RISC-V""],[""datas"",""AI""],[""datas"",""Database""]]",503
+2522d0329,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,马泽森,,openGauss向量数据库对接Embedding模型最佳实践,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",331
+25b970218,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,毛钊,,Clang 编译 GLIBC 支持,openEuler 社区,openEuler,"[[""os"",""Compiler""]]",220
+2572e0065,72e6f975-d2b8-4fa3-a377-441c1038db10,1,基础,苗西南,,P2P 基于感知带宽的节点侧二次调度,Dragonfly,Dragonfly,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Docker""],[""cloudnative"",""Kubernetes""]]",65
+25b540352,b5499265-47fb-43a9-8c7d-a6678469d63f,1,进阶,苗振东,,LLVM内核地址消毒功能增强：支持riscv32架构的OpenHarmony轻量系统内核,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""LLVM""]]",354
+257c80102,7c8860ae-2a61-4de7-8481-184b0494e0fd,0,进阶/Advanced,倪泽峰,KEDA-based Serverless Elastic Scaling for llmaz ,基于 KEDA 实现 llmaz Serverless 弹性扩展,InftyAI,,"[[""cloudnative"",""Kubernetes""],[""datas"",""LLM""],[""dev"",""LLMOps""],[""dev"",""MLOps""]]",102
+251f80281,1f8ea42c-86c9-46b8-b1f5-344de5741ef0,0,基础/Basic,彭杰,Implementing the MCP Server logic for converting Nginx configuration to Higress configuration,实现Nginx配置到Higress配置转换的MCP Server逻辑,Higress,Higress,"[[""datas"",""AI""]]",283
+259660338,966d75b6-6602-41a3-a30c-f1cb0e4fb754,1,进阶,彭镜肇,,为Cloudpods实现MCP Server,Cloudpods,,"[[""dev"",""AIOps""],[""web"",""RESTful API""],[""dev"",""DevOps""],[""os"",""Linux""]]",340
+259840114,9849cea0-a993-4120-8359-ab5b82ff55fc,1,进阶,彭宇科,,基于框内核架构的Rust教学操作系统,星绽OS,Asterinas,"[[""os"",""Linux""]]",114
+251190071,119ef0d9-7aac-431d-bb9f-d39864c168ff,0,基础/Basic,戚家辉,Supporting Airbyte for NebulaGraph,为 NebulaGraph 支持 Airbyte,NebulaGraph,NebulaGraph,"[[""datas"",""Database""],[""datas"",""Graph Database""],[""datas"",""MySQL""],[""cloudnative"",""Distributed Storage""]]",71
+257280063,7286a2dd-7b46-4795-a011-817af3e3cde6,1,进阶,齐希贤,,基于分布式图计算的自适应Path结构优化,TuGraph,TuGraph,"[[""datas"",""Graph Database""],[""web"",""GraphQL""]]",63
+2562f0214,62f08510-c082-4975-a9b1-335f495f1658,1,进阶,祁凌骁,,Apache Shenyu AI Proxy Plugin 能力增强,Apache ShenYu,,"[[""web"",""Spring Boot""],[""datas"",""AI""]]",216
+25ac20510,ac20493e-e9db-4482-8777-965363f7fee5,2,Advanced,乔震宇,,Implement the MCP for Pulsar Admin Tool,Apache Pulsar,Apache Pulsar,"[[""datas"",""AI""],[""datas"",""Kafka""],[""datas"",""Zookeeper""]]",514
+254700444,470497a3-dbd2-4780-8ca5-035d62ffedae,1,基础,丘浩彤,,Spring Cloud 2024 版本、2025 版本及第三方组件适配升级,Spring Cloud Alibaba,,"[[""web"",""Spring Cloud""]]",447
+2522b0026,22b1e1cb-92ef-446d-b951-1b92f6535cb4,1,基础,邱宇轩,,bsub -a支持指定具体esub application,volclava,,"[[""cloudnative"",""Distributed Storage""],[""os"",""CentOS""],[""os"",""GCC""],[""os"",""GDB""],[""os"",""GNU""],[""os"",""Linux""],[""os"",""Ubuntu""],[""safe"",""TCP/IP""],[""codelang"",""Programming Language""]]",26
+257cc0030,7ccd3063-5ec4-477f-975f-3ac2df9fc807,0,进阶/Advanced,屈静怡,Performance monitoring based on pprof and skywalking-go,基于pprof和skywalking-go进行性能监控,Apache SkyWalking,,"[[""dev"",""DevOps""],[""os"",""x86""],[""cloudnative"",""Kubernetes""],[""web"",""UI""],[""web"",""UX""]]",30
+25b970427,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,曲若非,Hardware-Assisted Fuzzing Methodology for Spectre Vulnerabilities in ARM CCA,面向ARM CCA的Spectre漏洞硬件辅助模糊测试方法,openEuler 社区,openEuler,"[[""os"",""ARM""],[""os"",""LLVM""]]",430
+256590172,659abd4f-ab65-4e41-9ba1-6824cefc1e0c,1,进阶,任昌骏,,RustSBI原型系统引导生态完善,RustSBI开源引导程序,,"[[""os"",""RISC-V""],[""os"",""Linux""]]",172
+25e430110,e43d267b-bf54-418f-a300-e847a4a43c4a,0,进阶/Advanced,任宇鹏,Research and implemention of Zero-knowledge proof or Post-Quantum Cryptography,零知识证明/后量子密码算法的研究与实现,隐语SecretFlow,,"[[""safe"",""AES""],[""safe"",""PKI""],[""safe"",""RSA""]]",110
+252e00215,2e0cd2fe-2b39-483c-8fc4-9f8e23b9f964,0,基础/Basic,阮乐天,Mooncake PD Disaggregation Design and Performance Optimization,Mooncake PD分离设计和性能优化,kvcache-ai,kvcache-ai,"[[""datas"",""AI""],[""datas"",""GPU""],[""datas"",""GPT""],[""datas"",""PyTorch""]]",217
+250500136,05063d74-da6a-4d58-a213-e90119f0eebb,1,基础,阮睿,,在 FIT 中通过 hibernate-validation 来实现 Jakarta Validation,ModelEngine,,"[[""web"",""Spring Boot""],[""codelang"",""Programming Language""]]",136
+251910020,1919a78b-344c-46d6-9276-b47d3a0a4a42,1,基础,尚凡,,优化 nydus 运行时 chunk meta 的加载方式,Nydus 镜像加速,,"[[""datas"",""AI""],[""cloudnative"",""Kubernetes""],[""os"",""FUSE""]]",20
+25b970284,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,尚映杰,Rust Implementation of Resource Observability Components for Satellite Scenarios on openEuler,卫星场景下 openEuler 系统资源可观测性组件的Rust实现,openEuler 社区,openEuler,"[[""os"",""Linux""],[""safe"",""HTTP""]]",286
+25b970273,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,申林峰,,基于高性能计算环境实现自适应操作系统性能优化套件,openEuler 社区,openEuler,"[[""os"",""Linux""],[""datas"",""HPC""]]",275
+2536e0181,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,基础,申曜枫,,TinyEditor 支持插入思维导图和流程图,OpenTiny,,"[[""web"",""Vue.js""]]",181
+25b970267,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,沈培峰,,调研LLVM FLANG对OpenACC 3.3支持情况,openEuler 社区,openEuler,"[[""os"",""LLVM""]]",269
+25d3e0487,d3ef1514-0176-4ab7-af1a-56cdae17b865,0,进阶/Advanced,施天泽,"On-device AI-based image description, for the NVDA screen reader for the blind",为NVDA屏幕阅读器（面向视障人士）提供的设备端AI图像描述,NVDA,,"[[""datas"",""Computer Vision(CV)""],[""datas"",""Data Science""],[""datas"",""Deep Learning""],[""datas"",""GPT""],[""datas"",""Machine Learning""],[""datas"",""Natural Language Processing (NLP)""],[""datas"",""PIL""],[""web"",""Desktop Application""]]",491
+251b90054,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,进阶/Advanced,石千山,VTable In-table Component,VTable 表中表组件,VisActor,VisActor,"[[""web"",""UIKit""]]",54
+2598a0405,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,1,基础,石馨钰,,KubeEdge Dashboard前端组件升级优化,KubeEdge,KubeEdge,"[[""web"",""React""]]",407
+2522d0421,22d73285-4482-4613-b94d-e026d3159f4b,1,进阶,时微淳,,openGauss 向量数据库集成MemGPT,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",424
+25b540189,b5499265-47fb-43a9-8c7d-a6678469d63f,1,基础,宋德浩,,OpenHarmony device 代码生成工具,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""Linux""]]",191
+25a1a0503,a1a5cfb7-ac01-4726-9edd-410e07655293,1,基础,宋恒宇,,基于 Spring AI Alibaba 的本地可观测与调试平台（后端）,Spring AI Alibaba,,"[[""dev"",""LLMOps""]]",507
+257280066,7286a2dd-7b46-4795-a011-817af3e3cde6,1,进阶,宋华龙,,Graph智能体工作流的自动生成与优化,TuGraph,TuGraph,"[[""datas"",""AI""],[""datas"",""Graph Database""]]",66
+25b740527,b74e6d5a-4356-4855-854e-c21444d0a1bc,2,Basic,宋明润,,Emoji Support for Mogan STEM,墨客实验室,XmacsLabs,"[[""web"",""Qt""],[""web"",""Desktop Application""]]",533
+255800354,580649c5-cc91-4f82-8614-7e4870865a18,1,进阶,宋世城,,为 Kata/runtime-rs 实现虚拟机模板（VM Templating）,Kata Containers,Kata Containers,"[[""os"",""Virtualization""],[""os"",""Linux""],[""os"",""QEMU""],[""os"",""KVM""]]",356
+2536e0175,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,宋子文,,TinyPro 集成页面设计器(考虑基于 TinyEngine 搭建)，可在线快速搭建页面,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",175
+25b970145,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,苏国诚,,PilotGo 适配 RISC-V,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",145
+25b540165,b5499265-47fb-43a9-8c7d-a6678469d63f,1,进阶,孙飞宇,,OpenHarmony 系统构建一个基于 Lycium 的交叉编译框架，快速编译和验证 C/C++ 第三方库,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""os"",""Linux""],[""codelang"",""Programming Language""]]",165
+250640479,064c15df-705c-483a-8fc8-02831370db14,0,进阶/Advanced,孙浩然,Seata-Go and Seata-Java functional alignment,Seata-Go 与Seata-Java 版本功能拉齐,Apache Seata,,"[[""web"",""Apache""],[""codelang"",""Programming Language""]]",483
+25f080037,f0813e66-fa19-4302-a3e3-e6f2d210c83d,0,基础/Basic,孙俊楠,Add token-based rate limiting capability to HTNN,为HTNN增加token限流能力,MOSN 社区,,"[[""safe"",""HTTP""],[""datas"",""LLM""],[""datas"",""AI""]]",37
+25c6d0296,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,孙文杰,,结构感知的量子启发优化算法,昇思MindSpore,,"[[""datas"",""AI""]]",298
+25b970242,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,孙亚鹏,,研究Linux系统典型应用场景的测试方案,openEuler 社区,openEuler,"[[""os"",""Linux""]]",244
+2518b0046,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,孙翊腾,,基于RISC-V架构的CRYSTALS-Dilithium能量侧信道攻击研究 ,openHiTLS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""SSL/TLS""]]",46
+2574b0174,74bfef73-c313-4d12-81b3-c5a82dcaff81,0,进阶/Advanced,孙宇轩,Backport the Newest GHC RISC-V Native Code Generator (NCG) to GHC 9.4.8,将 RISC-V 原生代码生成器 (NCG) 向前移植到 GHC 9.4.8 版本,eweOS,eweOS,"[[""codelang"",""Programming Language""],[""os"",""RISC-V""],[""os"",""Linux""]]",174
+255800244,580649c5-cc91-4f82-8614-7e4870865a18,1,进阶,孙子泰,,Runtime-rs 支持以 Rootless 模式运行 VMM,Kata Containers,Kata Containers,"[[""os"",""Virtualization""],[""os"",""x86""],[""os"",""QEMU""],[""os"",""Linux""],[""os"",""KVM""]]",246
+257280069,7286a2dd-7b46-4795-a011-817af3e3cde6,1,基础,谭冰,,基于MiniGU的向量存储与索引支持,TuGraph,TuGraph,"[[""datas"",""Graph Database""],[""datas"",""Vector Database""]]",69
+25b400127,b40d28ca-bdb8-4ccf-8e0e-802beca8c9db,0,基础/Basic,覃新舰,WebUI plugins for Entari,Entari 实例管理图形化面板,ArcletProject,,"[[""web"",""UI""],[""web"",""Web Application""],[""web"",""Vue.js""]]",127
+25fe90498,fe90a746-7d49-4474-a719-770ea082ec4c,1,进阶,覃晔,,Casibase容器云平台的功能开发与用户UI界面开发,Casibase AI社区,,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""],[""cloudnative"",""Cloud Native""]]",502
+255c40195,5c4a1cd8-f57b-4f77-a356-0598defeba07,0,进阶/Advanced,汤可欣,Karmada forbid the same resource multi dependency distribution,Karmada 禁止同一资源被多个资源跟随分发,Karmada,Karmada,"[[""cloudnative"",""Kubernetes""]]",197
+254db0058,4db41f94-f35e-48cd-b6d9-cd5512f5a213,1,进阶,汤玉龙,,基于cryptpilot实现in-place磁盘加密,龙蜥社区OpenAnolis,OpenAnolis,"[[""os"",""Linux""],[""os"",""ext4""]]",58
+25f640387,f64d9254-cf74-40f9-9c8d-9b4e882e5ff0,0,进阶/Advanced,唐得智,Centralized Management of the Erasure Coding Subsystem and Task Traffic Control,纠删码子系统中心化管理任务流量控制,CubeFS,,"[[""cloudnative"",""CubeFS""],[""cloudnative"",""Distributed Storage""]]",389
+25c6d0368,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,唐吉祥,,基于MindSpore实现多模态外形生成大模型,昇思MindSpore,,"[[""datas"",""AI""]]",370
+251760160,176182b5-031b-4793-9180-96b46a0544a3,1,进阶,唐思磊,,AGI DDS(TravoDDS)支持国密算法,AGIROS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""PKI""]]",160
+25b740565,b74e6d5a-4356-4855-854e-c21444d0a1bc,2,Basic,唐一帆,,Core Library (lolly) Performance Optimization for Mogan STEM,墨客实验室,XmacsLabs,"[[""os"",""Perf""],[""codelang"",""Programming Language""]]",571
+255c40415,5c4a1cd8-f57b-4f77-a356-0598defeba07,1,基础,唐瀛,,在Karmada Dashboard中集成Karmada-MCP-Server,Karmada,Karmada,"[[""cloudnative"",""Kubernetes""],[""datas"",""AI""]]",417
+255800269,580649c5-cc91-4f82-8614-7e4870865a18,1,进阶,陶思宇,,升级 Dragonball 的 rust-vmm 依赖到支持 RISC-V 的版本,Kata Containers,Kata Containers,"[[""os"",""Virtualization""],[""os"",""RISC-V""],[""os"",""Linux""],[""os"",""KVM""]]",271
+2518b0043,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,田琦,,基于RISC-V架构的抗侧信道攻击指令集设计,openHiTLS,,"[[""safe"",""SSL/TLS""],[""safe"",""RSA""],[""safe"",""PKI""]]",43
+2590e0231,90eea893-33f7-404f-ad72-d2e1c14009bf,1,基础,涂宇恒,,openInula 2.0 Antd 基础组件库,openInula,,"[[""web"",""Web Application""],[""web"",""Webpack""],[""web"",""UI""],[""web"",""React""]]",233
+25c6d0518,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,汪赫男,,面向灾害预警的雷达观测极端降水短临预测,昇思MindSpore,,"[[""datas"",""AI""],[""datas"",""Deep Learning""]]",522
+2522d0319,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,汪永顺,,openGauss向量数据库对接数据来源最佳实践,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",321
+2590e0238,90eea893-33f7-404f-ad72-d2e1c14009bf,1,基础,王宝宝,,Vue组件库ElementPlus转换到openInula,openInula,,"[[""web"",""React""],[""web"",""Webpack""],[""web"",""Web Application""],[""web"",""UI""],[""web"",""Babel""]]",240
+256eb0111,6eba80a6-81a9-4999-8c3b-70796665f622,1,进阶,王超,,LoongCollector 流水线性能和稳定性优化,LoongCollector,LoongCollector,"[[""datas"",""Kafka""],[""dev"",""Prometheus""],[""safe"",""TCP/IP""]]",111
+25b970265,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,王超凡,,llvm与gcc兼容性增强 —— 符号类型处理差异,openEuler 社区,openEuler,"[[""os"",""Compiler""]]",267
+2536e0170,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,基础,王晨光,,TinyPro 适配移动端，提升平板和手机端访问的体验,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",170
+25d3e0488,d3ef1514-0176-4ab7-af1a-56cdae17b865,0,进阶/Advanced,王宠,Integrating Chinese word segmentation into NVDA for enhanced text navigation and braille output,集成中文分词到 NVDA 中以增强文本导航和盲文输出,NVDA,,"[[""datas"",""Natural Language Processing (NLP)""],[""datas"",""AI""]]",492
+2598a0334,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,王春凯,Edge Device Model Design Based on Real Device Products,基于现实设备产品的边缘设备模型设计,KubeEdge,KubeEdge,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""]]",336
+25ec80475,ec8b597b-248f-4592-bd1c-be22e52a5654,1,基础,王多多,,HugeGraph Loader 服务化升级：任务管理、并行处理与存储直通,Apache HugeGraph,Apache HugeGraph,"[[""cloudnative"",""Distributed Storage""],[""datas"",""Database""],[""datas"",""Data Science""],[""dev"",""DataOps""]]",479
+255c40205,5c4a1cd8-f57b-4f77-a356-0598defeba07,0,基础/Basic,王岗,Karmada cluster failover optimize,Karmada cluster failover 优化,Karmada,Karmada,"[[""cloudnative"",""Kubernetes""]]",207
+25c6d0432,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,王涵悦,,基于MCP协议整合多源信息实现多模态动态旅游规划系统,昇思MindSpore,,"[[""datas"",""AI""]]",435
+2522b0023,22b1e1cb-92ef-446d-b951-1b92f6535cb4,1,基础,王浩,,bsub -pack 性能优化,volclava,,"[[""codelang"",""Programming Language""],[""cloudnative"",""Distributed Storage""],[""os"",""Linux""],[""os"",""Ubuntu""],[""os"",""GCC""],[""os"",""GNU""],[""os"",""CentOS""],[""safe"",""TCP/IP""]]",23
+2537f0496,37f3a4b4-c004-46c3-aa0c-57a49ca73b5b,0,基础/Basic,王宏州,Persistence and Loading of Metadata for agentUniverse Agent Applications Based on Relational Databases,基于关系型数据库的agentUniverse智能体应用元信息持久化与加载,agentUniverse,,"[[""datas"",""AI""],[""datas"",""Database""],[""datas"",""LLM""]]",500
+25e7a0282,e7aea313-3d6d-420d-a96a-f11241bdfa96,0,进阶/Advanced,王继鸿,GraphAr Extension for Kuzu,GraphAr 格式数据导入 Kuzu 的扩展工具实现,Apache GraphAr,Apache GraphAr,"[[""datas"",""Database""],[""datas"",""Graph Database""]]",284
+2573e0133,73e4d1f8-f80b-4c59-91ed-9488ce27c55f,1,进阶,王家宝,,基于版面解析和大语言模型的文档翻译能力建设,飞桨PaddlePaddle,,"[[""datas"",""LLM""],[""datas"",""Computer Vision(CV)""]]",133
+25cb60120,cb6e3bec-9977-429d-a9d3-aac3e345f09b,1,进阶,王嘉凯,,为 Breeze 实现任务栏模块,Breeze,,"[[""codelang"",""Programming Language""],[""os"",""x86""],[""os"",""LLVM""],[""web"",""UI""]]",120
+251110552,111e2fe9-025b-46da-a6c5-1b0de297abdd,0,进阶/Advanced,王金桓,Optimizing Python Bindings for Complex Scenarios,优化 Python 绑定，支持复杂场景,Apache OpenDAL,,"[[""datas"",""AI""],[""datas"",""Data Science""]]",558
+254f30402,4f33e117-5b4c-4167-93be-46f844e1c87d,1,进阶,王谦,,微信 .NET SDK  ,盛派开发者社区,,"[[""web"","".NET""],[""datas"",""Semantic Kernel""]]",404
+2536e0177,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,王全丰,, 使用floating-ui重构TinyVue的tooltip和popover组件,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",177
+251760306,176182b5-031b-4793-9180-96b46a0544a3,1,进阶,王硕,,基于开源通信中间件实现持久化服务,AGIROS,,"[[""datas"",""MySQL""],[""web"",""Qt""],[""os"",""x86""],[""os"",""RISC-V""],[""safe"",""Socket""],[""safe"",""TCP/IP""]]",308
+258430417,843a34c5-fc36-4733-b968-b2186b9f467b,1,基础,王硕,,为IvorySQL增加一键式安装脚本,IvorySQL开源数据库社区,,"[[""datas"",""PostgreSQL""]]",419
+25c4c0079,c4cc2271-6627-4965-a5ec-37d5ac3c0ad8,1,基础,王韦钧,,Apollo 权限系统架构迭代升级	,Apollo开源社区,Apollo Open Source Community,"[[""web"",""Spring Boot""],[""datas"",""MySQL""]]",79
+2522d0420,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,王贤义,,django支持opengauss,openGauss 社区,,"[[""web"",""Django""]]",423
+255800353,580649c5-cc91-4f82-8614-7e4870865a18,1,进阶,王昕阁,,为 Kata/runtime-rs 实现对 Seccomp 的支持,Kata Containers,Kata Containers,"[[""os"",""Linux""],[""os"",""Virtualization""],[""os"",""KVM""]]",355
+2518b0039,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,王星燃,,openHiTLS支持SPAKE2+，实现符合RFC9383,openHiTLS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""PKI""],[""safe"",""SSL/TLS""],[""safe"",""VPN""]]",39
+257cc0033,7ccd3063-5ec4-477f-975f-3ac2df9fc807,0,基础/Basic,王毅,BanyanD Client login,BanyanDB客户端login,Apache SkyWalking,,"[[""web"",""UI""],[""dev"",""DevOps""]]",33
+25b970450,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,王亦恺,,为 EulerPublisher 引入容器镜像层依赖关系分析引擎,openEuler 社区,openEuler,"[[""cloudnative"",""Cloud Native""],[""datas"",""AI""]]",453
+25fd10439,fd1f367a-4ccf-4056-97db-fdce56132013,1,基础,王寅合,,Git仓库RISC-V相关commit扫描工具研发,RVSmartPorting,,"[[""dev"",""Git""],[""os"",""RISC-V""]]",442
+25dc00557,dc0f7652-1c5a-4e45-a453-40c88a4004cf,0,基础/Basic,王英菲,Build Your First High-Performance DApp with Solidity,基于Soliidty 构建你的第一个高性能 DApp,OpenBuild,OpenBuild,"[[""codelang"",""Programming Language""]]",563
+2522d0440,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,王子旗,,openGauss DataKit支持ER图设计和建模,openGauss 社区,,"[[""datas"",""Database""]]",443
+254700504,470497a3-dbd2-4780-8ca5-035d62ffedae,1,基础,王子元,,基于 Spring Cloud Alibaba MCP 服务高效构建通用 AI 智能体,Spring Cloud Alibaba,,"[[""cloudnative"",""Cloud Native""],[""web"",""Spring Cloud""]]",508
+258ec0547,8ec6a045-25c9-4613-975c-0cf69cffea74,1,进阶,韦乾平,,为 OpenTenBase 实现分布式状态视图,OpenTenBase,,"[[""datas"",""Database""]]",553
+25fd10437,fd1f367a-4ccf-4056-97db-fdce56132013,1,基础,韦旭,,为RISC-V架构迁移辅助插件添加知识库RAG支持,RVSmartPorting,,"[[""os"",""RISC-V""],[""codelang"",""Programming Language""]]",440
+250900034,090748c6-6504-4d2d-9a11-f9f3e1876f7b,1,基础,魏国新,,改进 XPack 打包插件,xmake,,"[[""codelang"",""Programming Language""],[""os"",""Debian""],[""os"",""Linux""],[""os"",""Ubuntu""],[""os"",""Clang""],[""os"",""Compiler""]]",34
+25ec80515,ec8b597b-248f-4592-bd1c-be22e52a5654,1,进阶,魏靖霖,,实现轻量高性能的 Agentic GraphRAG 架构,Apache HugeGraph,Apache HugeGraph,"[[""datas"",""AI""],[""datas"",""Data Science""],[""datas"",""Database""]]",519
+25ff10092,ff144b94-b2ac-42fb-8c05-c6922058cb42,1,进阶,魏靖轩,,DragonBoot RISC-V内核引导程序,DragonOS开源社区,,"[[""os"",""RISC-V""],[""os"",""Linux""]]",92
+250ba0435,0ba070cf-52ec-406d-9973-28e435acb946,0,进阶/Advanced,翁楚杰,Apache Linkis MCP Capability Support,Apache Linkis MCP 能力支持,Apache Linkis 社区,,"[[""datas"",""AI""],[""datas"",""Hadoop""],[""dev"",""Git""],[""cloudnative"",""HDFS""]]",438
+25a7f0505,a7f6e2ad-4acc-47f8-9471-4e54b9a166a6,1,进阶,翁广驰,,Dubbo-Go接入MCP服务,Apache Dubbo,,"[[""datas"",""LLM""],[""cloudnative"",""Cloud Native""]]",509
+250900096,090748c6-6504-4d2d-9a11-f9f3e1876f7b,1,基础,吴德阳,,制作和提交 C/C++ 包到官方包仓库,xmake,,"[[""codelang"",""Programming Language""],[""dev"",""Git""],[""dev"",""CI""],[""os"",""ARM""],[""os"",""Fedora""],[""os"",""GCC""],[""os"",""Linux""],[""os"",""LLVM""],[""os"",""Ubuntu""]]",96
+25d170081,d1751c72-e462-4566-ba82-0675b75135e6,1,进阶,吴晋华,,为Risingwave增强时间序列相关功能,RisingWave,,"[[""datas"",""Flink""],[""datas"",""PostgreSQL""],[""datas"",""Relational Database""],[""datas"",""Database""]]",81
+257180207,718924df-94a6-4085-80f4-d8c4e2999562,0,进阶/Advanced,吴林,Development and Setup of the Python Environment Management Platform for openKylin RISC-V,openKylin RISC-V版本Python环境管理平台的开发与搭建,openKylin社区,,"[[""os"",""Linux""],[""os"",""RISC-V""]]",209
+258940361,894c8671-dd57-4e47-9efc-e6f30ae2911e,0,进阶/Advanced,吴天宇,Apache SeaTunnel Metalake Support Development,Apache SeaTunnel支持metalake开发,Apache SeaTunnel,,"[[""cloudnative"",""Flink""],[""cloudnative"",""HDFS""],[""cloudnative"",""Kafka""],[""datas"",""Data Science""]]",363
+25ed70381,ed765847-55a2-4051-9793-8748b9aae5a6,0,进阶/Advanced,吴希,UT Supplement to the Kmesh eBPF program,Kmesh eBPF程序的UT补充,Kmesh,Kmesh,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""],[""os"",""Linux""]]",383
+25ec80385,ec8b597b-248f-4592-bd1c-be22e52a5654,1,进阶,吴耀奔,,HugeGraph 支持向量索引存储与检索,Apache HugeGraph,Apache HugeGraph,"[[""datas"",""Database""],[""datas"",""Vector Database""],[""cloudnative"",""Distributed Storage""],[""datas"",""Graph Database""]]",387
+250240003,0240fd06-cd19-4f2b-a397-a8f3414ebc51,0,进阶/Advanced,吴越,Add Stock Chart Support for Excelize,为 Excelize 添加创建股价系列图表支持,Excelize,Excelize,"[[""codelang"",""Programming Language""]]",3
+25f420438,f42fd38d-6bd7-43b9-898f-dbe10fd89957,1,进阶,吴政阳,,扩展GPT-VIs协议，支持Agent工作任务视窗，实时展示Agent执行的代码、文档等信息,DB-GPT,,"[[""datas"",""AI""],[""datas"",""Database""],[""datas"",""LLM""]]",441
+2598a0326,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,伍文涵,Efficient Federated Fine-Tuning Framework for Large Language Models on KubeEdge-Ianvs,基于KubeEdge-Ianvs的大模型联邦微调算法,KubeEdge,KubeEdge,"[[""datas"",""AI""],[""datas"",""LLM""],[""cloudnative"",""Kubernetes""]]",328
+251b90052,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,基础/Basic,夏兰欣,VChart Extended Chart: Candlestick Chart,VChart 扩展图表：K线图,VisActor,VisActor,"[[""web"",""npm""]]",52
+258860555,8867f7ac-c3a6-4d7d-8937-e6209ba1b047,0,基础/Basic,夏骞,Improve the integration of Fcitx5 and Deepin Desktop Environment,改善 Fcitx5 与 Deepin Desktop Environment 的集成,深度开源社区,deepin,"[[""os"",""Linux""],[""os"",""Window Manager""],[""os"",""DBus""]]",561
+2536e0183,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,基础,夏雯斐,,开发Space 间距组件,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",185
+25a190016,a1906c80-af3d-4189-b26d-dfd2d86a2d3a,1,进阶,夏卓昭,,基于oneDNN的RVV优化,EulixOS,,"[[""datas"",""AI""],[""datas"",""PyTorch""],[""os"",""RISC-V""],[""os"",""Linux""]]",16
+25b970255,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,项龙,,Linux系统安全保障方案及测试工具,openEuler 社区,openEuler,"[[""os"",""Linux""]]",257
+257cc0032,7ccd3063-5ec4-477f-975f-3ac2df9fc807,0,基础/Basic,向旭欣,BanyanDB Support Self Observability through SkyWalking OAP/UI,BanyanDB通过OAP/UI实现自监控,Apache SkyWalking,,"[[""dev"",""DevOps""]]",32
+25b740554,b74e6d5a-4356-4855-854e-c21444d0a1bc,2,Basic,肖佳乐,,Project for OSPP 2025: MuPDF integration for Mogan STEM,墨客实验室,XmacsLabs,"[[""web"",""Qt""]]",560
+259660335,966d75b6-6602-41a3-a30c-f1cb0e4fb754,1,进阶,肖力绮,,Cloudpods 虚拟机支持 kickstart 自动化安装 ISO 镜像,Cloudpods,,"[[""os"",""QEMU""],[""os"",""Linux""]]",337
+25e430107,e43d267b-bf54-418f-a300-e847a4a43c4a,1,进阶,肖盼,,HintlessPIR 算法的研究与实现,隐语SecretFlow,,"[[""safe"",""AES""],[""safe"",""RSA""]]",107
+25b970147,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,肖乾印,,添加BiSheng JDK 8 RISC-V port的JIT支持,openEuler 社区,openEuler,"[[""os"",""Compiler""]]",147
+259430064,9437bf99-165d-44e7-b359-f05b6fcccc78,2,Advanced,肖荣星,,Support time series data structure and commands like Redis,Apache Kvrocks,,"[[""datas"",""Database""],[""cloudnative"",""Redis""]]",64
+25fd10463,fd1f367a-4ccf-4056-97db-fdce56132013,1,进阶,肖瑜,,RISC-V生态下的增量式程序静态分析框架建设,RVSmartPorting,,"[[""os"",""RISC-V""],[""codelang"",""Programming Language""]]",466
+25fbd0199,fbddcc44-29d8-407b-abc4-13dcaf02d662,0,基础/Basic,谢博帆,Add llm() User Defined Function for LLM Interaction in StarRocks,为 StarRocks 添加 llm() 用户自定义函数以实现 LLM 交互 ,StarRocks,StarRocks,"[[""datas"",""AI""],[""datas"",""Database""]]",201
+2575d0126,75d366c8-fcdf-4be9-a106-cade8978920d,0,基础/Basic,谢思怡,Design and Implementation of Open Source Operation Assistance Module Based on AI,基于ai的开源运营辅助模块设计与实现,HyperCRX,,"[[""datas"",""AI""],[""datas"",""LLM""],[""web"",""React""]]",126
+2522d0317,22d73285-4482-4613-b94d-e026d3159f4b,1,进阶,谢旭东,,openGauss对接AI编排工具Kotaemon实现智能小助手,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",319
+25ee30484,ee35ab56-cc17-47bb-aa3f-25f786d23286,1,进阶,谢长志,, RocketMQ 路由反向更新机制,Apache RocketMQ社区,,"[[""cloudnative"",""Kafka""],[""cloudnative"",""Cloud Native""],[""cloudnative"",""RabbitMQ""],[""cloudnative"",""Amazon SQS""]]",488
+25f420162,f4200812-9c27-4b2b-86b9-90d4ea67d14c,1,基础,邢思宇,,MaxKey官方文档优化和系统手册编写,MaxKey单点登录社区,,"[[""safe"",""OAuth""],[""safe"",""OpenIDConnect""],[""safe"",""LDAP""],[""safe"",""JWT""],[""safe"",""SAML""]]",162
+25b540154,b5499265-47fb-43a9-8c7d-a6678469d63f,1,基础,熊玮,,ONNX Runtime 在 RISC-V 架构 OpenHarmony 系统上的移植与性能优化,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""datas"",""AI""],[""os"",""Linux""]]",154
+258ea0380,8ea2183a-fc09-4c44-b58c-d87d98831c28,0,基础/Basic,胥梦荻,UI Application Development Based on openvela system,基于openvela系统的UI应用开发,openvela,openvela,"[[""web"",""UI""]]",382
+2518b0038,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,基础,徐必昂,,openHiTLS支持TOTP协议，实现符合RFC6238标准,openHiTLS,,"[[""safe"",""SSL/TLS""],[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""PKI""]]",38
+257e50382,7e52ef27-ff02-457d-9bc3-cdb9c8b69cef,0,进阶/Advanced,徐锦慧,Pikiwidb kvcache,Pikiwidb kvcache,PikiwiDB(Pika)开源社区,The PikiwiDB(Pika) Community,"[[""datas"",""AI""],[""datas"",""Database""]]",384
+25aff0568,affc7d45-194f-4262-bbd4-b79fbdc4c107,0,进阶/Advanced,徐堋力,Nonebot Plugin Web Page Federation Framework,Nonebot插件管理页面统一集成入口框架,MountainDash,,"[[""web"",""Web Application""],[""web"",""UI""],[""web"",""Vue.js""],[""web"",""React""]]",577
+25aca0559,acac956c-ff57-4ec8-9657-e5a14ff91b62,1,进阶,徐琪,,研究 eBPF 技术在机器学习驱动的系统观测与自适应优化中的应用潜力,Linux内核之旅开源社区,,"[[""os"",""Clang""],[""os"",""Debian""],[""os"",""GNU""],[""os"",""Linux""],[""os"",""Perf""],[""os"",""Ubuntu""],[""os"",""x86""]]",565
+257410397,7417e814-f8ac-4ff3-aa75-e7973d7bb349,0,进阶/Advanced,徐天行,Milvus supports timestamptz data type,Milvus支持 timestamptz 数据类型,Milvus,Milvus,"[[""datas"",""AI""],[""datas"",""Database""],[""datas"",""Vector Database""]]",399
+25b970278,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,徐小玥,Multi-Agent Collaborative Framework for Automated Kernel Vulnerability Reproduction,多Agent协同的内核漏洞自动化复现框架,openEuler 社区,openEuler,"[[""os"",""Linux""],[""datas"",""LLM""],[""datas"",""AI""],[""codelang"",""Programming Language""]]",280
+251b90070,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,基础/Basic,徐奕凡,Superset integrates VisActor,Superset 集成 VisActor,VisActor,VisActor,"[[""datas"",""Power BI""]]",70
+253ba0300,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,进阶/Advanced,徐悦皓,Volcano Performance Bottleneck Analysis and Continuous Optimization in Large-Scale Scenarios,Volcano 大规模场景性能瓶颈分析与持续优化,Volcano社区,Volcano Community,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""],[""dev"",""Grafana""],[""dev"",""Prometheus""],[""os"",""Linux""]]",302
+25a2b0345,a2b7644b-9d51-44a7-9900-c19c199af41b,0,进阶/Advanced,许宏鑫,Implementing overlapped_forward_backward func for MOE,为MOE实现Overlapped_forward_backward func,DLRover,,"[[""datas"",""AI""],[""datas"",""GPU""]]",347
+25b970283,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,许佳凯,Porting of the oeAware Framework Based on the RISC-V Architecture,基于 RISC-V 架构的 oeAware 框架移植,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",285
+258ea0375,8ea2183a-fc09-4c44-b58c-d87d98831c28,0,基础/Basic,许嘉隆,Fast application development based on openvela system,基于openvela系统的快应用开发,openvela,openvela,"[[""web"",""Apache""]]",377
+25b970137,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,许锦,,将QBE引入openEuler,openEuler 社区,openEuler,"[[""os"",""Linux""]]",137
+2590e0222,90eea893-33f7-404f-ad72-d2e1c14009bf,1,进阶,许娜娜,,openInula DevTool开发,openInula,,"[[""web"",""Babel""],[""web"",""React""],[""web"",""UI""],[""web"",""Webpack""],[""web"",""Web Application""],[""datas"",""AI""]]",224
+255080494,50864b24-ce35-490f-b14b-a3b9d51fae7a,1,基础,许文杰,,Casdoor协议相关功能支持,Casbin,,"[[""safe"",""OAuth""],[""safe"",""OpenIDConnect""]]",498
+25c6d0365,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,许洋鸣,,基于MindSpore实现DeepSeek v3安全推理算法,昇思MindSpore,,"[[""datas"",""AI""]]",367
+25ee30461,ee35ab56-cc17-47bb-aa3f-25f786d23286,1,进阶,许億驰,,RocketMQ 主备副本利用系统内置Topic完成元数据增量同步,Apache RocketMQ社区,,"[[""cloudnative"",""Kafka""],[""cloudnative"",""RabbitMQ""]]",464
+257580546,7584ea38-6d19-4ca9-b42a-6253a80de51d,1,基础,许雨晴,,基于flow-canvas画布实现低代码设计AI Agent功能,UBML,,"[[""web"",""UIKit""],[""web"",""Vue.js""]]",552
+257e50383,7e52ef27-ff02-457d-9bc3-cdb9c8b69cef,0,进阶/Advanced,许祝愿,Fast data ingestion,数据快速入库,PikiwiDB(Pika)开源社区,The PikiwiDB(Pika) Community,"[[""datas"",""Database""],[""cloudnative"",""Redis""],[""cloudnative"",""HDFS""],[""cloudnative"",""Hadoop""]]",385
+25db60571,db6589fe-12bc-45dd-aee6-3c2f34b654be,1,基础,薛博璇,,NowInOpenHarmony,OpenAtom OpenHarmony,,"[[""codelang"",""Programming Language""]]",580
+25c3e0545,c3e620a9-1296-480e-80db-137767231403,1,进阶,薛兢,,在XS-gem5上实现RISC-V的sv48分页机制,香山开源社区,XiangShan Open Source Community,"[[""chip"",""Chip Design/Verification""]]",551
+25c6d0374,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,闫超美,,基于vllm-mindspore实现eagle投机算法,昇思MindSpore,,"[[""datas"",""AI""]]",376
+2536e0203,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,闫家辉,,设计器支持TS,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",205
+258e10394,8e1f9786-b898-4e62-af09-dbd21365c1d0,1,基础,闫守儒,,MatChat模板小程序支持,DevUI,,"[[""web"",""UI""],[""web"",""Vue.js""]]",396
+25b480166,b488bdfa-7839-4d23-ab7a-c4cdaaed1f0e,1,基础,晏子涵,,G3开源代理覆盖率提升,G3,G3,"[[""safe"",""DNS""],[""safe"",""HTTP""],[""safe"",""libcurl""],[""safe"",""SSL/TLS""],[""safe"",""TCP/IP""],[""safe"",""tcpdump""],[""safe"",""Wireshark""]]",166
+2522d0422,22d73285-4482-4613-b94d-e026d3159f4b,1,进阶,杨贝宁,,openGauss 向量数据库集成PrivateGPT,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",425
+257410396,7417e814-f8ac-4ff3-aa75-e7973d7bb349,0,基础/Basic,杨辰方,Milvus-storage Self-Adaptation encoder & compressor,milvus-storage自适应encoder & compressor,Milvus,Milvus,"[[""datas"",""Database""],[""datas"",""AI""],[""datas"",""Vector Database""]]",398
+25a190082,a1906c80-af3d-4189-b26d-dfd2d86a2d3a,1,进阶,杨淦早,,基于 RISC-V RVV 向量扩展的 Apache HBase 实时查询性能优化,EulixOS,,"[[""datas"",""Hbase""],[""os"",""Linux""],[""os"",""RISC-V""]]",82
+25a990328,a9960269-6312-4c26-9ef2-cc4a590fda6c,0,进阶/Advanced,杨海波,VIDEX Compatibility with MariaDB,VIDEX 适配 MariaDB ,VIDEX,VIDEX,"[[""datas"",""Database""],[""datas"",""MySQL""],[""datas"",""Data Science""]]",330
+25fed0167,fed579da-ce07-48eb-9d05-f44c4afbbb77,0,基础/Basic,杨晶晶,Writing a plugin for converting Chinese text between Simplified and Traditional in ONLYOFFICE editors,开发一款插件，用于在 ONLYOFFICE 编辑器中实现中文文本的简体与繁体转换,ONLYOFFICE,ONLYOFFICE,"[[""web"",""Web Application""],[""web"",""Desktop Application""]]",167
+25ec80379,ec8b597b-248f-4592-bd1c-be22e52a5654,1,进阶,杨景凯,,实现图计算系统 Vermeer 任务优先级调度器,Apache HugeGraph,Apache HugeGraph,"[[""datas"",""HDFS""],[""datas"",""Graph Database""],[""codelang"",""Programming Language""]]",381
+25f420566,f42fd38d-6bd7-43b9-898f-dbe10fd89957,1,进阶,杨明欣,,基于Agent实现独立环境、代码执行等能力,DB-GPT,,"[[""datas"",""AI""],[""datas"",""Database""],[""datas"",""LLM""]]",572
+253ba0293,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,进阶/Advanced,杨特,Volcano Native Heterogeneous Resource Management: Integrating Ascend NPU Scheduling Plugin,Volcano 原生异构资源管理：集成昇腾 NPU 调度插件,Volcano社区,Volcano Community,"[[""datas"",""AI""],[""dev"",""Git""],[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""]]",295
+25b970258,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,杨天宇,,基于classic-flang支持C Strings in Character Constants,openEuler 社区,openEuler,"[[""os"",""classic-flang""]]",260
+2522d0316,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,杨天宇,,openGauss向量数据库迁移Milvus的迁移测试,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",318
+25f080012,f0813e66-fa19-4302-a3e3-e6f2d210c83d,1,基础,杨伟诺,,为 HTNN 增加 AI 内容安全插件,MOSN 社区,,"[[""safe"",""HTTP""],[""datas"",""LLM""]]",12
+25c0f0240,c0fdb64b-1d94-41e0-b5d6-a6fb94862c62,0,进阶/Advanced,杨亚斌,IpCam firmware based on RISC-V hardware,基于 RISC-V 硬件的 IpCam 固件,Live777,Live777,"[[""os"",""Linux""],[""os"",""RISC-V""],[""web"",""Web Application""]]",242
+25bef0143,bef415f7-741e-4db8-a4ff-b3904c502471,0,基础/Basic,杨叶轩,Apache HertzBeat automated task MCP Server,Apache HertzBeat 自动化任务 MCP Server,Apache HertzBeat,Apache HertzBeat,"[[""dev"",""AIOps""],[""datas"",""AI""]]",143
+25bc90129,9f7da647-7a2c-48df-8303-8c5013615f1d,0,进阶/Advanced,杨泽睿,Building an AI gateway and hybrid governance capability integration based on MCP/A2A protocol based on Dubbo-go-Pixiu,基于 Dubbo-go-Pixiu 构建 MCP/A2A 协议的 AI 网关及混合治理能力集成,pixiu社区,pixiu,"[[""safe"",""HTTP""],[""datas"",""LLM""]]",129
+2574b0101,74bfef73-c313-4d12-81b3-c5a82dcaff81,0,基础/Basic,杨哲涵,Improve pacman support in Open Build System,改进 Open Build System 的 pacman 支持,eweOS,eweOS,"[[""os"",""Linux""]]",101
+25a990323,a9960269-6312-4c26-9ef2-cc4a590fda6c,0,进阶/Advanced,叶飞,Lightweight Sampling-Based Single-Column NDV and Histogram Estimation [Algorithm],基于低代价采样的单列 NDV 和直方图估计 [算法],VIDEX,VIDEX,"[[""datas"",""Database""],[""datas"",""Data Science""],[""datas"",""AI""],[""datas"",""MySQL""],[""datas"",""Relational Database""]]",325
+25fd10470,fd1f367a-4ccf-4056-97db-fdce56132013,1,基础,叶思翔,,面向RISC-V架构适配的Java程序崩溃报告过滤与定位,RVSmartPorting,,"[[""codelang"",""Programming Language""],[""os"",""RISC-V""],[""datas"",""LLM""]]",474
+250500234,05063d74-da6a-4d58-a213-e90119f0eebb,1,基础,叶子航,,基于提示词工程的能力，提升基础模型节点 Function Calling 的准确率,ModelEngine,,"[[""datas"",""AI""]]",236
+258ec0556,8ec6a045-25c9-4613-975c-0cf69cffea74,1,进阶,易炜涵,,实现oracle force view功能,OpenTenBase,,"[[""datas"",""Database""]]",562
+2590e0249,90eea893-33f7-404f-ad72-d2e1c14009bf,1,基础,尹健,,openInula 2.0 VSCode 插件,openInula,,"[[""web"",""React""],[""web"",""Webpack""],[""web"",""Web Application""]]",251
+257410398,7417e814-f8ac-4ff3-aa75-e7973d7bb349,0,进阶/Advanced,尹劲松,"File stats pass-through skip index, richer skip index",file stats 透传 skip index，更丰富的 skip index,Milvus,Milvus,"[[""datas"",""AI""],[""datas"",""Vector Database""]]",400
+2598a0311,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,基础/Basic,应佳泽,Migrate the federated inference large model example from kubeedge-ianvs to kubeedge-sedna,从 kubeedge-ianvs 迁移联合推理大模型 example 至 kubeedge-sedna,KubeEdge,KubeEdge,"[[""datas"",""AI""],[""datas"",""LLM""],[""cloudnative"",""Docker""],[""cloudnative"",""Kubernetes""]]",313
+256920103,692508ac-4aed-47a6-b5c9-09244bbf4f78,1,基础,游文馨,,面向公司组织结构的数据权限控制组件,苞米豆,,"[[""web"",""Spring Boot""]]",103
+259020523,90210734-42a4-4ed0-b69c-261c51da4997,1,基础,游赟,,为EventMesh实现MCP 服务,Apache EventMesh 社区,,"[[""datas"",""AI""],[""dev"",""AIOps""]]",528
+255fc0161,5fc77071-bc74-46f7-9aaf-70570d4ebeb4,1,基础,余德水,,提供OpenYurt边缘节点组件yurthub的自动化部署运维能力,OpenYurt,,"[[""cloudnative"",""Kubernetes""]]",161
+2590e0196,90eea893-33f7-404f-ad72-d2e1c14009bf,1,进阶,余诗蕊,,基于低码的意图生成代码平台,openInula,,"[[""web"",""Babel""],[""web"",""React""],[""web"",""UI""],[""web"",""Web Application""],[""web"",""Webpack""],[""datas"",""AI""]]",198
+2562f0341,62f08510-c082-4975-a9b1-335f495f1658,1,基础,余思衡,,Apache ShenYu代理插件细粒度服务配置,Apache ShenYu,,"[[""web"",""Spring Boot""],[""web"",""npm""],[""web"",""React""],[""web"",""RESTful API""]]",343
+2595a0025,95a9e459-a200-4a26-bc0a-81074c2d89be,1,基础,余文峰,,SOFARPC 超时控制支持 Deadline 机制,SOFAStack 社区,SOFAStack Community,"[[""web"",""Spring Cloud""]]",25
+259b20004,9b2ca59c-8114-49c0-b664-197880284d4e,1,进阶,余奕辰,,dora openloong 软件集成,Dora-rs开源项目,Dora-rs Open Source Project,"[[""os"",""Ubuntu""],[""os"",""x86""],[""codelang"",""Programming Language""],[""datas"",""LLM""],[""datas"",""OpenCV""]]",4
+256590399,659abd4f-ab65-4e41-9ba1-6824cefc1e0c,1,进阶,余重兵,,为 bouffalo-hal 完善外设、运行时和生态支持,RustSBI开源引导程序,,"[[""os"",""RISC-V""]]",401
+25c6d0304,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,余卓宇,,基于MindSpore实现典型工业场景下基于非结构化离散的三维流场仿真,昇思MindSpore,,"[[""datas"",""AI""]]",306
+25b970150,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,袁枫烨,,文档质量优化的数据集生成工具,openEuler 社区,openEuler,"[[""datas"",""AI""]]",150
+2590e0226,90eea893-33f7-404f-ad72-d2e1c14009bf,1,基础,袁峻琦,,openInula 2.0 交互式教程,openInula,,"[[""web"",""React""],[""web"",""Webpack""],[""web"",""Web Application""],[""web"",""UI""]]",228
+2598a0411,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,1,进阶,章博雄,,基于 KubeEdge 的主题化设备数据发布/订阅框架,KubeEdge,KubeEdge,"[[""cloudnative"",""Kubernetes""]]",413
+2567b0525,67bd7c5e-f98e-46d3-a56f-207000ae9308,1,进阶,张灿,,为 Cloud-Hypervisor RISC-V 引入 ACPI 支持,Cloud Hypervisor,,"[[""os"",""Virtualization""],[""os"",""Emulation""],[""os"",""Linux""]]",530
+25aee0372,aeec05d8-4098-493c-82cc-80e1395a11f8,1,进阶,张昌福,,消息驱动型任务调度模块开发,大数据流水线系统πFlow,,"[[""web"",""Spring Boot""],[""web"",""RESTful API""],[""datas"",""Kafka""],[""datas"",""MySQL""]]",374
+2598a0388,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,张瀚元,Privacy-Preserving Prompt Processing Framework for Cloud-Edge Collaborative LLMs on KubeEdge-Ianvs,基于KubeEdge-Ianvs云边协同推理的大模型隐私保护算法,KubeEdge,KubeEdge,"[[""datas"",""AI""],[""datas"",""LLM""],[""datas"",""PyTorch""],[""datas"",""TensorFlow""],[""cloudnative"",""Kubernetes""]]",390
+2536e0178,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,基础,张颢严,,TinyCharts 横向进度图开发,OpenTiny,,"[[""web"",""UI""]]",178
+258430407,843034ca-94ee-4bac-af49-a58bc6061f4f,1,进阶,张恒元,,Flink-openGemini-Connector实现,openGemini,openGemini,"[[""datas"",""Database""],[""datas"",""Flink""]]",409
+25c6d0525,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,张红浩,,基于MindSpore的4D毫米波雷达-图像双视角融合的3D检测模型复现,昇思MindSpore,,"[[""datas"",""AI""],[""datas"",""Deep Learning""]]",531
+2518b0044,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,张骥宇,,RISC-V架构加速多标量乘法MSM,openHiTLS,,"[[""safe"",""SSL/TLS""],[""safe"",""RSA""],[""safe"",""PKI""],[""safe"",""AES""]]",44
+256690088,669ff0b7-2366-4bf3-8ffb-10f79089a45a,1,进阶,张嘉,,基于 LangGraph 实现的 KubeSphere 社区问答 AI 助手,KubeSphere 开源社区,,"[[""datas"",""AI""],[""cloudnative"",""Kubernetes""],[""datas"",""Vector Database""]]",88
+2536e0201,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,张珈瑜,,源码转换DSL能力,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",203
+25b970268,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,张金荣,,eulermaker构建优化,openEuler 社区,openEuler,"[[""cloudnative"",""Docker""]]",270
+25f420164,f4200812-9c27-4b2b-86b9-90d4ea67d14c,1,进阶,张居要,,MaxKey WebAuthn登录认证开发和双因素认证优化,MaxKey单点登录社区,,"[[""web"",""Angular""],[""safe"",""OAuth""],[""safe"",""OpenIDConnect""],[""safe"",""SAML""],[""web"",""Spring Boot""]]",164
+2551d0538,51de1696-1868-448f-b324-7660156bf068,1,进阶,张峻弋,,HIPLOT (ORG) 生物医学数据分析功能大版本更新,Openbiox,,"[[""codelang"",""Programming Language""],[""web"",""Web Application""],[""datas"",""Data Science""],[""datas"",""Scientific Computing""]]",544
+258e10393,8e1f9786-b898-4e62-af09-dbd21365c1d0,1,基础,张乐驰,,MateChat模板移动端(Android、IOS、鸿蒙)支持,DevUI,,"[[""web"",""UI""],[""web"",""Vue.js""],[""web"",""AndroidX""]]",395
+2522d0325,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,张凌浩,,openGauss 向量数据库 AI 评估框架对接最佳实践输出,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",327
+25e1f0100,e1fb5b8d-125a-4138-b756-25bd32c0a31a,1,进阶,张宁远,,NoneBot HTML 图片渲染插件,NoneBot,,"[[""web"",""Qt""],[""web"",""UI""],[""datas"",""PIL""],[""dev"",""Selenium""]]",100
+2518b0047,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,张宁岳,,openHiTLS密码库RISC-V架构下基于RVV实现对AES、SM4对称密码算法的加速与优化,openHiTLS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""SSL/TLS""],[""safe"",""TCP/IP""]]",47
+25b970248,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,张瑞峰,,面向代码任务的DeepSeek大语言模型的本地部署和性能优化,openEuler 社区,openEuler,"[[""datas"",""LLM""]]",250
+2556e0377,56e91299-431b-4fd6-aa26-4f3618d33343,1,进阶,张诗淇,,支持Rust构建RT-Thread安全组件,RT-Thread,,"[[""os"",""RISC-V""],[""os"",""RTOS""]]",379
+258bf0378,8bf4a200-dfac-47ea-af19-5b03caa0d6d3,1,基础,张四锦,,完善DAPLINK使用python脚本控制脱机下载的能力,PikaPython,PikaPython,"[[""os"",""ARM""],[""os"",""RISC-V""]]",380
+251760216,176182b5-031b-4793-9180-96b46a0544a3,1,基础,张腾,,可部署于机器人终端的基于yolo的小样本学习工具包,AGIROS,,"[[""datas"",""CNN""],[""datas"",""OpenCV""],[""datas"",""Deep Learning""],[""os"",""ARM""],[""os"",""Linux""]]",218
+2598a0320,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,张天禧,Implementation of Mapper Framework Based on C Language,基于c语言实现MapperFramework,KubeEdge,KubeEdge,"[[""codelang"",""Programming Language""],[""cloudnative"",""Kubernetes""]]",322
+2598a0350,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,张潇月,Cloud-edge multi-LLM routing paradigm based on KubeEdge-Ianvs: Confronted with Embodied Intelligence,基于KubeEdge-Ianvs的多LLM云边路由范式：面向具身智能应用,KubeEdge,KubeEdge,"[[""datas"",""AI""],[""datas"",""LLM""],[""datas"",""PyTorch""],[""cloudnative"",""Kubernetes""]]",352
+250110404,0116dedc-4db6-4817-acfb-ea771e338e17,1,进阶,张新凯,,Kuasar机密容器：基于x86 SEV 实现,Kuasar,,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Cloud Native""],[""os"",""Linux""],[""os"",""x86""],[""os"",""QEMU""],[""os"",""KVM""]]",406
+25b970289,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,张馨月,Design and implementation of efficient database storage based on secGear.,基于secGear的高效数据库存储设计与实现。,openEuler 社区,openEuler,"[[""os"",""Linux""],[""codelang"",""Programming Language""]]",291
+2518b0050,18bb721f-3e94-43cb-aa79-ef635d4f86e7,1,进阶,张新宇,,基于Frama-C的openHiTLS国密算法（SM3/SM4）形式化验证与安全增强,openHiTLS,,"[[""safe"",""AES""],[""safe"",""RSA""],[""safe"",""SSL/TLS""]]",50
+251910021,1919a78b-344c-46d6-9276-b47d3a0a4a42,1,进阶,张学栋,,修复 nydus 运行时 shared mode 下的 inode cache 问题,Nydus 镜像加速,,"[[""datas"",""AI""],[""cloudnative"",""Kubernetes""],[""os"",""FUSE""]]",21
+258860540,8867f7ac-c3a6-4d7d-8937-e6209ba1b047,0,基础/Basic,张伊林,Expand Linux Kernel with more SHA-3 algorithm acceleration implementations based on RISC-V V extension and K extension,为Linux Kernel扩充更多基于RISC-V V扩展和K扩展的SHA-3算法加速实现,深度开源社区,deepin,"[[""os"",""RISC-V""],[""os"",""Linux""],[""safe"",""Cryptography""]]",546
+2590e0245,90eea893-33f7-404f-ad72-d2e1c14009bf,1,进阶,张怡婷,,openInula 2.0 编译器 Rust化,openInula,,"[[""web"",""Babel""],[""web"",""React""],[""web"",""Webpack""],[""web"",""Web Application""],[""os"",""Compiler""]]",247
+25c6d0446,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,张易方,,基于时间序列预测方法的降雨预测,昇思MindSpore,,"[[""datas"",""AI""]]",449
+256820108,68249511-e0f8-4472-accb-110d24ceec1b,1,进阶,张宇,,为Arthas 实现 MCP 服务,Arthas,,"[[""datas"",""AI""],[""dev"",""AIOps""]]",108
+2536e0257,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,基础,张筠,,低代码物料快速导入能力,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",259
+25a190575,a1906c80-af3d-4189-b26d-dfd2d86a2d3a,1,进阶,张子昂,,RISC-V IOMMU HPM & Nested支持 ,EulixOS,,"[[""os"",""Linux""],[""os"",""RISC-V""],[""os"",""QEMU""],[""os"",""Virtualization""]]",584
+256590513,659abd4f-ab65-4e41-9ba1-6824cefc1e0c,1,进阶,张子涵,,基于RustSBI文档的FAQ问答库设计与实现,RustSBI开源引导程序,,"[[""datas"",""AI""],[""datas"",""LLM""],[""os"",""RISC-V""]]",517
+254290198,42920502-6476-4380-9ed0-ff7b90ad9f03,1,进阶,章子渝,,为 TDengine 完善逻辑备份和恢复功能,TDengine,,"[[""datas"",""Database""],[""datas"",""Structured Database""],[""datas"",""MySQL""]]",200
+251760187,176182b5-031b-4793-9180-96b46a0544a3,1,进阶,赵聪,,利用AGIROS实现机器狗导航和控制,AGIROS,,"[[""datas"",""AI""]]",189
+25cd20191,cd2fb95f-429c-4f75-a358-ad55fc500fcb,1,进阶,赵翠岚,,在BMQ调度算法中实现无锁的抢占队列，全局运行队列和优先级级别全局运行队列锁,Project C,Project C,"[[""os"",""Linux""]]",193
+25b970572,b9770f4d-f586-4373-bdac-ce6389065946,1,基础,赵广浩,,基于AI大模型提升社区翻译效率,openEuler 社区,openEuler,"[[""cloudnative"",""Cloud Native""],[""datas"",""AI""],[""cloudnative"",""Docker""]]",581
+252290056,22999f09-2be2-4dd8-b10f-bc4d6610cc25,0,基础/Basic,赵海波,Add gRPC Task Plugin to Apache DolphinScheduler,Apache Dolphinscheduler 新增 gRPC 任务插件,Apache DolphinScheduler,Apache DolphinScheduler,"[[""cloudnative"",""Docker""],[""web"",""Vue.js""]]",56
+251b90074,1b9c181e-bfef-48f7-85b7-c30d0eeb3ab4,0,基础/Basic,赵佳祎,Expand the visualization generation capabilities of OpenManus,扩展OpenManus 可视化生成能力,VisActor,VisActor,"[[""datas"",""AI""],[""datas"",""LLM""]]",74
+259660336,966d75b6-6602-41a3-a30c-f1cb0e4fb754,1,进阶,赵金雨,,为 Cloudpods 服务编译打包 RISC-V 镜像,Cloudpods,,"[[""cloudnative"",""Docker""],[""os"",""RISC-V""],[""os"",""Linux""]]",338
+259840115,9849cea0-a993-4120-8359-ab5b82ff55fc,0,进阶/Advanced,赵泽骏,Enhancing RISC-V 64 Support in the Starlight Kernel,完善星绽内核的 RISC-V 64 支持,星绽OS,Asterinas,"[[""os"",""RISC-V""],[""os"",""Linux""]]",115
+253c80010,3c81ea00-9ae8-4583-8334-8d9c2f756605,2,Basic,赵志远,,AI-Powered API Testing Agent for atest,API Testing,,"[[""datas"",""AI""],[""datas"",""Database""],[""web"",""Vue.js""]]",10
+254700511,470497a3-dbd2-4780-8ca5-035d62ffedae,1,基础,郑浩,,企业级分布式 MCP 服务部署与调用方案与实现,Spring Cloud Alibaba,,"[[""datas"",""AI""],[""cloudnative"",""Cloud Native""]]",515
+2551d0158,51de1696-1868-448f-b324-7660156bf068,1,进阶,郑虎,,生物医学可视化开源图鉴项目拓展,Openbiox,,"[[""codelang"",""Programming Language""],[""datas"",""Data Science""],[""datas"",""Scientific Computing""]]",158
+25c6d0299,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,基础,郑凯饶,,基于MindSpore实现RL+启发式混合算法,昇思MindSpore,,"[[""datas"",""AI""]]",301
+25f420512,f42fd38d-6bd7-43b9-898f-dbe10fd89957,1,基础,郑志坤,,基于MCP + Agent实现表格对话、多表格场景应用,DB-GPT,,"[[""datas"",""AI""],[""datas"",""Database""],[""datas"",""LLM""]]",516
+251f80280,1f8ea42c-86c9-46b8-b1f5-344de5741ef0,0,进阶/Advanced,钟宝骏,"Implement an AI Agent for Higress based on multiple MCP Servers to achieve control, operation, and maintenance diagnostics for Higress.",为 Higress 实现基于多个 MCP Server 的 AI Agent，实现对 Higress 的管控/运维诊断,Higress,Higress,"[[""datas"",""AI""]]",282
+254a40235,4a48d322-64ba-4487-9bf8-83c4744c8884,0,进阶/Advanced,钟俊杰,Implement Type Forward/Backward compatible serialization for Fury Go,Fury Golang序列化类型前后兼容支持,Apache Fory,Apache Fory,"[[""codelang"",""Programming Language""]]",237
+251a60574,1a699957-f67f-46d6-8f4e-7afb08c29bf9,0,基础/Basic,仲浩,High-level AIbrix CLI to manage workloads for users who is not familiar with Kubernetes,开发 AIbrix 高级命令行界面（CLI）工具,AIBrix,,"[[""cloudnative"",""Kubernetes""],[""datas"",""AI""],[""datas"",""LLM""]]",583
+25dc00535,dc0f7652-1c5a-4e45-a453-40c88a4004cf,0,进阶/Advanced,周嘉杰,Enhance GitHub Data Processing and Optimization for Web3Insights (based on gharchive),完善 Web3Insights 的 GitHub 数据处理与优化（基于 gharchive）,OpenBuild,OpenBuild,"[[""datas"",""Database""],[""datas"",""Data Science""],[""datas"",""Structured Database""],[""codelang"",""Programming Language""],[""datas"",""Graph Database""]]",541
+25b970230,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,周乐,Optimization of RustPilot Flight Control on Xenomai,基于xenomai的Rustpilot飞控优化,openEuler 社区,openEuler,"[[""os"",""Linux""],[""os"",""RTOS""]]",232
+25a190006,a1906c80-af3d-4189-b26d-dfd2d86a2d3a,1,进阶,周美琦,,基于RISC-V的高性能多模态AI业务解决方案研发与优化,EulixOS,,"[[""datas"",""PyTorch""],[""os"",""Linux""],[""os"",""RISC-V""]]",6
+25bef0157,bef415f7-741e-4db8-a4ff-b3904c502471,0,基础/Basic,周书胜,Apache HertzBeat supports the RISC-V architecture and Native Build native binary packages,Apache HertzBeat 支持 RISC-V 架构和 Native Build 原生二进制包,Apache HertzBeat,Apache HertzBeat,"[[""os"",""RISC-V""]]",157
+2536e0204,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,进阶,周天意,,TinyEngine低代码引擎支持多人协作能力,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",206
+255650567,565a7ada-dc49-46bc-bde5-15c075646e5a,0,进阶/Advanced,周文龙,Exploration and Implementation of Qt Binding Based on MoonBit,基于MoonBit的Qt绑定探索与实现,MoonBit 社区,MoonBit Community,"[[""web"",""Desktop Application""],[""codelang"",""Programming Language""],[""web"",""UI""],[""web"",""Qt""]]",576
+25b970266,b9770f4d-f586-4373-bdac-ce6389065946,0,基础/Basic,周媛,deepin-upgrade-tool Optimization,deepin-upgrade-tool 优化,openEuler 社区,openEuler,"[[""web"",""PyQt""]]",268
+2536e0176,36ed1f70-33b1-47c2-a63c-d3faea6b73fc,1,基础,周泽龙,,参考 NestJS 后端接口规范，提供 Java SpringBoot 或 Python Django 版本后端,OpenTiny,,"[[""web"",""UI""],[""web"",""Vue.js""]]",176
+25b740528,b74e6d5a-4356-4855-854e-c21444d0a1bc,2,Advanced,周支宇,,Tab Completion for Mogan STEM,墨客实验室,XmacsLabs,"[[""web"",""Qt""]]",534
+2562f0213,62f08510-c082-4975-a9b1-335f495f1658,1,进阶,朱笛,,Apache ShenYu服务状态可视化管理,Apache ShenYu,,"[[""web"",""npm""],[""web"",""React""],[""web"",""RESTful API""],[""web"",""Spring Boot""]]",215
+257dc0036,7dca27bb-a6d8-4fbc-b0c3-cb461fd775c6,0,进阶/Advanced,朱家顺,"Generation of Evaluation Indicators and Models for Open Source Software Based on LLM, and Generation of Evaluation Reports",基于 LLM 的开源软件评估指标、模型生成及评估报告生成,开源指南针,OSS Compass,"[[""datas"",""LLM""]]",36
+25b540183,b5499265-47fb-43a9-8c7d-a6678469d63f,1,进阶,朱嘉明,,OpenHarmony 系统实现语音唤起功能,如意 RISC-Vers 社区,RISC-Vers,"[[""os"",""RISC-V""],[""datas"",""AI""],[""os"",""Linux""]]",183
+25c480529,c48b633f-d10f-433c-ab5e-4a7d4bbb218f,1,进阶,朱柯宇,,跨平台 WebAuthn 密钥管理器,清华大学 TUNA 协会,,"[[""web"",""Flutter""]]",535
+25b970569,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,朱琳,,openeuler/epkg-factory epkg一键开发环境搭建,openEuler 社区,openEuler,"[[""cloudnative"",""Cloud Native""],[""os"",""x86""]]",578
+25b970251,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,朱佩韦,,实现Automotive Grade Linux在openEuler Embedded上的初步适配,openEuler 社区,openEuler,"[[""datas"",""Embedded Database""],[""os"",""Linux""]]",253
+25fd10469,fd1f367a-4ccf-4056-97db-fdce56132013,1,进阶,朱钦睿,,为深度学习库测试生成工具完善RISC-V支持,RVSmartPorting,,"[[""os"",""RISC-V""],[""datas"",""AI""],[""datas"",""Deep Learning""]]",472
+25b970272,b9770f4d-f586-4373-bdac-ce6389065946,0,基础/Basic,朱文宇,Audacity Audio Editor Porting and Optimization Based on RPM Packaging,基于RPM打包的Audacity音频编辑器移植与优化,openEuler 社区,openEuler,"[[""os"",""Linux""]]",274
+25a190007,a1906c80-af3d-4189-b26d-dfd2d86a2d3a,1,进阶,朱歆雨,,基于RISC-V架构的Ssctr内核虚拟化支持,EulixOS,,"[[""os"",""Linux""],[""os"",""RISC-V""],[""os"",""CentOS""],[""os"",""QEMU""]]",7
+2598a0360,98ab8bae-a41e-4282-a7bf-5a1c0fafd440,0,进阶/Advanced,朱彦豪,Agent Benchmark for Government Scenarios Based on KubeEdge-Ianvs,基于KubeEdge-Ianvs的政务智能体基准测试,KubeEdge,KubeEdge,"[[""datas"",""AI""],[""datas"",""LLM""],[""cloudnative"",""Kubernetes""]]",362
+25b970228,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,朱一鸣,,vkernel RISC-V支持,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",230
+25b970260,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,朱宇瀚,,并行面向多 SDK 版本的 RISC-V 架构 Java 软件包构建方案设计与验证,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",262
+254f90090,4f94c999-d6b6-443a-8cac-88379438ec70,1,进阶,朱子坤,,为opentelemetry-go-auto-instrumentation提供ollama框架的大模型可观测能力,opentelemetry-go-auto-instrumentation,,"[[""os"",""Perf""]]",90
+25ff10094,ff144b94-b2ac-42fb-8c05-c6922058cb42,1,进阶,庄凯烨,,DragonOS 桥接网络支持,DragonOS开源社区,,"[[""os"",""Linux""],[""cloudnative"",""Kubernetes""],[""os"",""x86""],[""safe"",""TCP/IP""]]",94
+259c00332,9c00a2d2-e32f-407e-8ea4-f5925f8c2837,2,Advanced,ABHINAV NAGASIVA ANANTHU,,Integrating a software framefork for machine learning in Embox RTOS,Embox,,"[[""datas"",""TensorFlow""],[""dev"",""Git""],[""os"",""GCC""],[""os"",""GDB""],[""os"",""GNU""],[""os"",""Linux""],[""os"",""QEMU""]]",334
+250dc0409,0dca9fd4-2728-4b8e-b384-389c951fd490,0,进阶/Advanced,Atharva Anil Wadnere,Design and Implementation of DDR3 PHY using SpinalHDL for Xilinx UltraScale FPGA,基于SpinalHDL的DDR3 PHY设计及其在Xilinx UltraScale FPGA上的实现,SpinalHDL,SpinalHDL,"[[""chip"",""Chip Design/Verification""]]",411
+25c3e0544,c3e620a9-1296-480e-80db-137767231403,0,基础/Basic,Atharva Ratnakar Nerkar,"Enhancement of UART Port and ELF Loading for the Software Simulation Environment of the ""XiangShan"" High-Performance Processor        4o",为“香山”高性能处理器软件仿真环境实现UART串口和ELF加载的增强,香山开源社区,XiangShan Open Source Community,"[[""chip"",""Chip Design/Verification""]]",550
+25b970403,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,Daniel Antonio Martinez Sanchez,,Triton-CPU tile操作生成AArch64 SVE/SME,openEuler 社区,openEuler,"[[""os"",""Compiler""],[""datas"",""HPC""]]",405
+25bc30212,bc369204-2d8f-45b8-902b-144564d17ee4,0,进阶/Advanced,HO JIN LE,Arch Linux for Loong64 package build information management platform,Arch Linux for Loong64 软件包构建信息管理平台,北京大学 Linux 俱乐部,,"[[""os"",""Linux""],[""os"",""GNU""]]",214
+25ed70367,ed765847-55a2-4051-9793-8748b9aae5a6,1,基础,Israni Yash N.,,Kmesh website自动化能力建设和文档优化,Kmesh,Kmesh,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Kubernetes""]]",369
+253ba0295,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,基础/Basic,Jayesh Savaliya,"Building CI/CD Pipelines, Helm Releases, and Automated Testing for Volcano Sub-Projects",Volcano 子项目 CI/CD 流程、Helm 发布与自动化测试体系建设,Volcano社区,Volcano Community,"[[""dev"",""CD""],[""dev"",""CI""],[""dev"",""DevOps""],[""cloudnative"",""Kubernetes""],[""os"",""Linux""]]",297
+255000420,5003a9d5-4dfa-4568-9d56-4320c68b46f1,1,进阶,Jeffrey Zhang,,OI Wiki Markdown 转换 LaTeX 导出印刷用途 PDF 项目,OI Wiki,,"[[""datas"",""AI""],[""datas"",""Machine Learning""],[""datas"",""Data Science""],[""dev"",""CI""],[""dev"",""CD""],[""dev"",""Git""],[""dev"",""MLOps""]]",422
+25d520206,d526f38f-47b0-4012-9cf3-48cb44c36e22,0,基础/Basic,Md Muzaffar,Implement Advanced Viewer Features for MQTTX,为 MQTTX 实现高级视图器功能,EMQ开发者社区,EMQ Developer Community,"[[""web"",""Vue.js""],[""web"",""UX""],[""web"",""npm""],[""web"",""Electron""],[""datas"",""AI""],[""web"",""Desktop Application""],[""web"",""Sass""],[""web"",""UI""],[""web"",""Webpack""],[""web"",""Yarn""]]",208
+256330501,63337bb3-3688-4c7c-8b34-2b2922665daf,2,Advanced,Nielsen Cugito,,Performance trace optimization in the multimedia framework,BMF字节跳动多媒体框架,BMF,"[[""os"",""Perf""],[""datas"",""AI""]]",505
+255b40533,5b4167b6-2f10-47a0-a7c8-927a313abbf6,0,基础/Basic,Pratyay Banerjee,Implementing full MCP function for OpenDigger,为 OpenDigger 实现完整的 MCP 服务,OpenDigger,OpenDigger,"[[""datas"",""Data Science""]]",539
+259c00210,9c00a2d2-e32f-407e-8ea4-f5925f8c2837,2,Advanced,Shankari Anandakrishnan,,Adding Standard Device Tree  support for Embox RTOS,Embox,,"[[""os"",""QEMU""],[""os"",""RISC-V""],[""os"",""Linux""],[""os"",""GNU""],[""os"",""GDB""],[""os"",""GCC""],[""os"",""Complier""],[""dev"",""Git""]]",212
+253ba0307,3bad8469-f54d-4a44-9f29-c81fa24d3864,0,基础/Basic,vaishnavi Mandhani,Volcano Official Website Reconstruction and Custom Feature Development Based on Hugo,基于 Hugo 的 Volcano 官网重构与功能定制开发,Volcano社区,Volcano Community,"[[""web"",""Hugo""],[""cloudnative"",""Kubernetes""]]",309
+259670061,967c6493-016e-4ff4-be14-44d796c72dc6,0,基础/Basic,,Implement secure & cloud-native deployment for RobstMQ,为 RobstMQ 实现安全&云原生部署功能,RobustMQ,RobustMQ,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Docker""],[""datas"",""Kafka""],[""safe"",""MQTT""]]",61
+25c3e0086,c3e620a9-1296-480e-80db-137767231403,1,进阶,,,基于高性能RISC-V处理器核“香山”的微架构UT验证——IFUtop模块,香山开源社区,XiangShan Open Source Community,"[[""os"",""RISC-V""]]",86
+25c3e0104,c3e620a9-1296-480e-80db-137767231403,1,进阶,,,基于高性能RISC-V处理器核“香山”的微架构UT验证——FTQ 与分支预测单元交互,香山开源社区,XiangShan Open Source Community,"[[""os"",""RISC-V""],[""os"",""Linux""],[""dev"",""pytest""]]",104
+257c80106,7c8860ae-2a61-4de7-8481-184b0494e0fd,0,基础/Basic,,Enabling Efficient Model and Container Image Distribution in LLMaz with Dragonfly,基于 Dragonfly 优化 LLMaz 的镜像与模型分发机制实现,InftyAI,,"[[""datas"",""LLM""],[""dev"",""LLMOps""],[""dev"",""MLOps""],[""cloudnative"",""Kubernetes""],[""cloudnative"",""Cloud Native""]]",106
+25d170109,d1751c72-e462-4566-ba82-0675b75135e6,2,Advanced,,,Implement heuristic reducer which can shrink complex queries for Risingwave's differential testing,RisingWave,,"[[""datas"",""Relational Database""],[""datas"",""Database""]]",109
+2532c0116,32cda81d-a705-4ab7-8b13-7c27a86ac19a,0,进阶/Advanced,,Implementing Query-Level Resource Tracking and Quota Enforcement in GreptimeDB,在 GreptimeDB 中实现基于查询粒度的资源追踪与配额控制机制,GreptimeDB,GreptimeDB,"[[""datas"",""Database""],[""cloudnative"",""Cloud Native""]]",116
+2532c0117,32cda81d-a705-4ab7-8b13-7c27a86ac19a,0,基础/Basic,,Enhancing GreptimeDB Backup with Apache Iceberg Integration,基于 Apache Iceberg 的 GreptimeDB 备份功能增强,GreptimeDB,GreptimeDB,"[[""datas"",""Database""],[""cloudnative"",""Cloud Native""]]",117
+2532c0119,32cda81d-a705-4ab7-8b13-7c27a86ac19a,0,进阶/Advanced,,Arbitrary UDF Execution Framework,GreptimeDB 通用 UDF 执行框架设计与实现,GreptimeDB,GreptimeDB,"[[""datas"",""Database""],[""cloudnative"",""Cloud Native""]]",119
+254db0179,4db41f94-f35e-48cd-b6d9-cd5512f5a213,1,进阶,,,基于Aliyun Peerpod的Confidential AI,龙蜥社区OpenAnolis,OpenAnolis,"[[""datas"",""AI""],[""os"",""x86""],[""os"",""Virtualization""]]",179
+254db0188,4db41f94-f35e-48cd-b6d9-cd5512f5a213,1,进阶,,,Confidential AI软件供应链参考值全周期自动化管理,龙蜥社区OpenAnolis,OpenAnolis,"[[""datas"",""AI""],[""dev"",""CI""],[""os"",""Linux""]]",190
+252a90192,2a961670-32e4-4099-929f-c674fb418319,0,进阶/Advanced,,Design and Implementation of the MCP Server Resource Security Scanning Feature,MCP Server 资源安全扫描功能设计与实现,OpenCSG,,"[[""datas"",""AI""],[""datas"",""PostgreSQL""],[""cloudnative"",""Docker""],[""dev"",""Git""],[""datas"",""LLM""]]",194
+25ab10209,ab188e59-fab8-468f-bc89-bdc2bd8b5e64,0,进阶/Advanced,,Performance and Effectiveness Optimization for Nacos Mcp Router,Nacos Mcp Router推荐的性能和效果优化,Nacos,Nacos,"[[""datas"",""AI""],[""datas"",""LLM""]]",211
+254160236,4169274d-0d8f-4836-96a4-cc9061ee7a24,0,基础/Basic,,"Starry-next: A Linux ABI-Compatible, Rust-Based Componentized monolithic OS kernel",Starry-next：兼容Linux ABI且基于Rust的组件化monolithic架构操作系统内核,唐图社区,,"[[""os"",""QEMU""],[""os"",""RTOS""],[""os"",""Linux""],[""os"",""RISC-V""]]",238
+254160237,4169274d-0d8f-4836-96a4-cc9061ee7a24,0,基础/Basic,,AxVisor: Rust-Based Componentized hypervisor,AxVisor：基于Rust的组件化hypervisor,唐图社区,,"[[""os"",""RTOS""],[""os"",""Linux""],[""os"",""Virtualization""],[""os"",""KVM""]]",239
+25b970270,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,,,适配A-Tune到RISC-V架构并对混合式负载进行调优,openEuler 社区,openEuler,"[[""os"",""RISC-V""]]",272
+25b970276,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,,,为 EulerPublisher 引入 Jenkins 作为工作流执行引擎,openEuler 社区,openEuler,"[[""cloudnative"",""Cloud Native""],[""cloudnative"",""Docker""],[""dev"",""Jenkins""],[""dev"",""Git""]]",278
+25b970285,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,,,网络数控面统一编程IDE插件,openEuler 社区,openEuler,"[[""codelang"",""Programming Language""]]",287
+2534b0291,34ba2611-6d7e-4869-95d0-ec977b09ecdf,1,进阶,,,实现状态窗口功能,LF Edge eKuiper,LF Edge eKuiper,"[[""cloudnative"",""Flink""],[""datas"",""Non-relational Database""]]",293
+2587f0331,87f3a68b-b420-4793-8484-8a24112d33c8,2,Advanced,,,Audio Controls Feature for vhost-device-sound,RustVMM,,"[[""os"",""Virtualization""],[""os"",""Emulation""],[""os"",""Linux""]]",333
+259660333,966d75b6-6602-41a3-a30c-f1cb0e4fb754,1,进阶,,,为 Cloudpods ocboot 实现 RISC-V K3s 部署,Cloudpods,,"[[""os"",""Linux""],[""os"",""RISC-V""],[""cloudnative"",""Kubernetes""],[""os"",""Ansible""],[""os"",""Virtualization""]]",335
+254300340,43028de2-f616-418d-9e11-52faa58ec5b4,1,基础,,,SnailJob-灵活、可靠、高效的分布式任务调度与重试平台,aizuda,,"[[""codelang"",""Programming Language""],[""os"",""x86""],[""os"",""CentOS""],[""cloudnative"",""Docker""],[""web"",""Vue.js""],[""web"",""Spring Boot""],[""web"",""RESTful API""],[""web"",""Nginx""]]",342
+253550342,355a0dc3-676d-4b0f-afd3-d339d7567afc,1,进阶,,,插件数据存储逻辑优化,AstrBot,,"[[""codelang"",""Programming Language""],[""datas"",""Relational Database""],[""safe"",""HTTP""],[""web"",""UI""]]",344
+25db60351,db6589fe-12bc-45dd-aee6-3c2f34b654be,1,进阶,,,PIEditor,OpenAtom OpenHarmony,,"[[""os"",""RISC-V""],[""codelang"",""Programming Language""]]",353
+25b970369,b9770f4d-f586-4373-bdac-ce6389065946,0,进阶/Advanced,,Performance Optimization of Machine Game Engine Based on Rust and RISC-V,基于Rust的机器博弈引擎性能优化与RISC-V适配,openEuler 社区,openEuler,"[[""datas"",""AI""],[""os"",""RISC-V""]]",371
+2522d0423,22d73285-4482-4613-b94d-e026d3159f4b,1,基础,,,openGauss 向量数据库集成Kotaemon,openGauss 社区,,"[[""datas"",""Database""],[""datas"",""AI""]]",426
+25b970429,b9770f4d-f586-4373-bdac-ce6389065946,1,进阶,,,基于外挂 FDT 硬件描述信息的 RISC-V Linux SBC 通用 UEFI 启动方案,openEuler 社区,openEuler,"[[""os"",""RISC-V""],[""os"",""Linux""]]",432
+250ba0436,0ba070cf-52ec-406d-9973-28e435acb946,0,基础/Basic,,Apache Linkis Management Console Refactoring,Apache Linkis 管理台重构,Apache Linkis 社区,,"[[""web"",""Vue.js""],[""web"",""npm""],[""web"",""RESTful API""],[""web"",""Webpack""]]",439
+259430458,9437bf99-165d-44e7-b359-f05b6fcccc78,0,进阶/Advanced,,Add support for cluster mode management features to Apache Kvrocks Operator,为 Apache Kvrocks Operator 支持 Cluster 模式管理功能,Apache Kvrocks,,"[[""cloudnative"",""Kubernetes""],[""cloudnative"",""Redis""]]",461
+25c6b0467,c6b0898b-989d-4dfc-b5cd-f350ecc039d5,1,进阶,,,Hippo4j Server 模式轻量化集群部署实现,OpenGoofy开源社区,,"[[""safe"",""Netty""]]",470
+255930476,5932fbcc-1556-40c7-b34a-e015fa33914a,1,进阶,,,Apache ShardingSphere：Proxy Native 支持 RISC-V 架构（进阶）,Apache ShardingSphere,,"[[""os"",""RISC-V""]]",480
+255a30480,5a314e2c-4567-45c3-9010-9b5075b1c94e,0,进阶/Advanced,,RoarLang programming text code support,狮偶编程文字代码支持,狮偶,RoarLang,"[[""codelang"",""Programming Language""]]",484
+255a30481,5a314e2c-4567-45c3-9010-9b5075b1c94e,0,进阶/Advanced,,RoarLang IDE Accessibility Development,狮偶IDE无障碍开发,狮偶,RoarLang,"[[""codelang"",""Programming Language""],[""web"",""Vue.js""]]",485
+25d3e0489,d3ef1514-0176-4ab7-af1a-56cdae17b865,0,进阶/Advanced,,On-device OCR engine for the NVDA screen reader,用于 NVDA 屏幕阅读器的设备端 OCR 引擎,NVDA,,"[[""datas"",""AI""],[""web"",""Desktop Application""],[""datas"",""Computer Vision(CV)""],[""datas"",""Data Science""],[""datas"",""Deep Learning""],[""datas"",""GPT""],[""datas"",""Machine Learning""],[""datas"",""Natural Language Processing (NLP)""]]",493
+255080491,50864b24-ce35-490f-b14b-a3b9d51fae7a,1,进阶,,,Casdoor单点登录系统管理平面、权限相关功能支持,Casbin,,"[[""safe"",""OAuth""],[""safe"",""OpenIDConnect""]]",495
+255080492,50864b24-ce35-490f-b14b-a3b9d51fae7a,1,进阶,,,支持RISC-V架构的Casdoor单点登录系统,Casbin,,"[[""os"",""RISC-V""],[""safe"",""OAuth""],[""safe"",""OpenIDConnect""]]",496
+25fe90497,fe90a746-7d49-4474-a719-770ea082ec4c,1,进阶,,,Casibase的AI知识库功能开发与用户体验优化,Casibase AI社区,,"[[""datas"",""AI""],[""datas"",""Database""]]",501
+255080500,50864b24-ce35-490f-b14b-a3b9d51fae7a,1,基础,,,Casdoor与其他开源软件相关对接支持,Casbin,,"[[""safe"",""OAuth""],[""safe"",""OpenIDConnect""]]",504
+2537f0516,37f3a4b4-c004-46c3-aa0c-57a49ca73b5b,0,进阶/Advanced,,Development of a Backend Management System Based on the agentUniverse Multi-Agent Framework,基于agentUniverse多智能体框架的后台管理模块建设,agentUniverse,,"[[""datas"",""AI""],[""datas"",""LLM""],[""dev"",""LLMOps""]]",520
+256690520,669ff0b7-2366-4bf3-8ffb-10f79089a45a,1,进阶,,,基于 KubeSphere 实现 CodeSpace 功能,KubeSphere 开源社区,,"[[""web"",""React""],[""web"",""npm""]]",524
+259020524,90210734-42a4-4ed0-b69c-261c51da4997,1,进阶,,,EventMesh operator完善与k8s组件集成,Apache EventMesh 社区,,"[[""cloudnative"",""Kubernetes""]]",529
+25c6d0539,c6db8ca1-273e-4ba9-b5b7-d0bf10dee1eb,1,进阶,,,电力设备巡检大模型应用开发,昇思MindSpore,,"[[""datas"",""AI""],[""datas"",""Deep Learning""]]",545
+258cb0541,8cb8bf0e-b5bc-4735-9d56-77fdbf8e779c,2,Advanced,,,Scanner support for the Printer Application framework PAPPL - Finalizing the API and integrating the components,OpenPrinting,,"[[""safe"",""TCP/IP""],[""os"",""Linux""]]",547
+257d60548,7d65cfc7-5b9f-40c0-a6fb-ba288ffbbfbe,1,进阶,,,为 SimpleKernel 添加 ACPI 支持,Simple-XX,,"[[""os"",""x86""],[""os"",""PIC""],[""os"",""QEMU""],[""os"",""GNU""]]",554
+257580549,7584ea38-6d19-4ca9-b42a-6253a80de51d,1,进阶,,,迭代升级低代码建模语言UBML2.0融合生成式AI实现代码与模型双向转换,UBML,,"[[""datas"",""AI""],[""codelang"",""Programming Language""]]",555
+251110550,111e2fe9-025b-46da-a6c5-1b0de297abdd,0,基础/Basic,,Improve Version Release Experience,提升版本发布体验,Apache OpenDAL,,"[[""dev"",""CI""],[""dev"",""CD""],[""dev"",""DevOps""]]",556
+258d90561,8d995d4c-b188-4690-9a53-c022dc7c19e3,0,进阶/Advanced,,Performance Benchmark Suite Implementation for Gemmini Accelerator,面向Gemmini加速器的性能测试套件开发,Buddy Compiler,Buddy Compiler,"[[""os"",""Compiler""],[""os"",""RISC-V""]]",567
+25c3e0564,c3e620a9-1296-480e-80db-137767231403,1,基础,,,面向“香山”高性能处理器Spike参考模型的向量指令Agnostic写1策略的实现,香山开源社区,XiangShan Open Source Community,"[[""chip"",""Chip Design/Verification""]]",570
+25a190576,a1906c80-af3d-4189-b26d-dfd2d86a2d3a,1,进阶,,,基于RISC-V 的RAID调研/测试及优化,EulixOS,,"[[""os"",""Linux""],[""os"",""RISC-V""],[""os"",""QEMU""]]",585
